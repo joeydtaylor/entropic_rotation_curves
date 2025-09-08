@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Envs & IDEs
+.venv/
+.env
+*.code-workspace
+.vscode/
+.DS_Store
+
+# Outputs & data
+out/
+*.png
+*.pdf
+*.npy
+*.csv
+*.json
+
+# Docker / misc
+*.swp

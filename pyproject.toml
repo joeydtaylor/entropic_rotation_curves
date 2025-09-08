@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "egr-rc"
+version = "0.1.0"
+description = "Entropy–Gated Response (EGR) rotation-curve fitter with diagnostics"
+requires-python = ">=3.10"
+readme = "README.md"
+authors = [{name="Joey Taylor"}]
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "pandas>=2.1",
+  "matplotlib>=3.8",
+  "emcee>=3.1",
+  "corner>=2.2"
+]
+
+[project.scripts]
+egr-rc = "egrrc.rc:main"
+egr-rc-run-all = "egrrc.run_all:main"
+egr-rc-selftest = "egrrc.run_all:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

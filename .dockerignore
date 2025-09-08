@@ -1,0 +1,10 @@
+.venv
+.git
+.gitignore
+__pycache__
+.ipynb_checkpoints
+out
+dist
+build
+*.egg-info
+data/*.csv
