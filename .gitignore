@@ -17,13 +17,5 @@ dist/
 .vscode/
 .DS_Store
 
-# Outputs & data
-out/
-*.png
-*.pdf
-*.npy
-*.csv
-*.json
-
 # Docker / misc
 *.swp

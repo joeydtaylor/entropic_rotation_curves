@@ -1,0 +1,2128 @@
+clear
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 0  —  galaxies 1..4 of 175 (Total Pages: 44)
+
+[amB] rows(raw)=9, rows(used)=9
+  R range: [0.16, 1.79]  |  V range: [min 1.99, max 20.1]
+  model: EGR-10  |  ΔBIC=-121.9 (F7_fallback), ΔBIC_χ²=-9051.5
+  s_frac=0.0000  χ²_red=0.017  R²=1.000  AIC=-28.92  AICc=-28.92  BIC=-26.95  [conservative σ]  [bound hits — chosen:4, f7:0, f10:4]
+  DW=3.022  ρ_AR1=-0.543  [warn residual AR1]  BP_p=0.277
+  ablation: ΔRMSE_in = -82.888 (model − EGR-7)
+  Q_exp = R * S_resp = 9.86443
+  saved fig: /work/out/figs/amB_rc.png
+
+[512-2] rows(raw)=4, rows(used)=4
+  R range: [0.96, 3.83]  |  V range: [min 22.9, max 37.2]
+  [skip] status=too_few_points
+
+[564-8] rows(raw)=6, rows(used)=6
+  R range: [0.51, 3.07]  |  V range: [min 8.54, max 25]
+  model: EGR-10  |  ΔBIC=-70.3 (F7_fallback), ΔBIC_χ²=-441.5
+  s_frac=0.0000  χ²_red=0.018  R²=1.000  AIC=-7.01  AICc=-7.01  BIC=-9.10  [conservative σ]  [bound hits — chosen:3, f7:0, f10:2]
+  DW=2.440  ρ_AR1=-0.809  [warn residual AR1]  BP_p=0.049  [hetero p<0.05]
+  ablation: ΔRMSE_in = -57.764 (model − EGR-7)
+  Q_exp = R * S_resp = 10.2087
+  saved fig: /work/out/figs/564-8_rc.png
+
+[631-7] rows(raw)=16, rows(used)=16
+  R range: [0.45, 7.19]  |  V range: [min 8.41, max 58.5]
+  model: EGR-10  |  ΔBIC=-149.0 (F7_fallback), ΔBIC_χ²=-1066.9
+  s_frac=0.0000  χ²_red=0.178  R²=0.999  AIC=-1.28  AICc=42.72  BIC=6.45  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.289  ρ_AR1=0.098  BP_p=0.034  [hetero p<0.05]
+  ablation: ΔRMSE_in = -69.713 (model − EGR-7)
+  Q_exp = R * S_resp = 10.7948
+  saved fig: /work/out/figs/631-7_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 3  |  Failures: 1
+ Selected EGR-10: 3/3  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.018
+ Median DW: 2.440  |  Median ρ_AR1: -0.543
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:3
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 1  —  galaxies 5..8 of 175 (Total Pages: 44)
+
+[DO064] rows(raw)=14, rows(used)=14
+  R range: [0.1, 2.98]  |  V range: [min 6.29, max 46.9]
+  model: EGR-10  |  ΔBIC=-111.9 (F7_fallback), ΔBIC_χ²=-1216.3
+  s_frac=0.0000  χ²_red=0.167  R²=0.995  AIC=21.09  AICc=94.42  BIC=27.48  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.160  ρ_AR1=-0.153  BP_p=0.074
+  ablation: ΔRMSE_in = -73.938 (model − EGR-7)
+  Q_exp = R * S_resp = 23.4901
+  saved fig: /work/out/figs/DO064_rc.png
+
+[DO154] rows(raw)=12, rows(used)=12
+  R range: [0.49, 5.92]  |  V range: [min 13.8, max 48.2]
+  model: EGR-10  |  ΔBIC=-116.7 (F7_fallback), ΔBIC_χ²=-357.7
+  s_frac=0.0062  χ²_red=1.000  R²=0.999  AIC=-5.62  AICc=214.38  BIC=-0.77  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.251  ρ_AR1=-0.317  [warn residual AR1]  BP_p=0.110
+  ablation: ΔRMSE_in = -65.119 (model − EGR-7)
+  Q_exp = R * S_resp = 5.90368
+  saved fig: /work/out/figs/DO154_rc.png
+
+[DO161] rows(raw)=31, rows(used)=31
+  R range: [0.6, 13.4]  |  V range: [min 16, max 67.5]
+  model: EGR-10  |  ΔBIC=-284.6 (F7_fallback), ΔBIC_χ²=-1038.4
+  s_frac=0.0000  χ²_red=0.156  R²=0.998  AIC=6.83  AICc=17.83  BIC=21.17  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=1.069  ρ_AR1=0.465  [warn residual AR1]  BP_p=0.046  [hetero p<0.05]
+  ablation: ΔRMSE_in = -93.326 (model − EGR-7)
+  Q_exp = R * S_resp = 3.70609
+  saved fig: /work/out/figs/DO161_rc.png
+
+[DO168] rows(raw)=10, rows(used)=10
+  R range: [0.41, 4.12]  |  V range: [min 15, max 55]
+  model: EGR-10  |  ΔBIC=-73.5 (F7_fallback), ΔBIC_χ²=-215.2
+  s_frac=0.0450  χ²_red=1.000  R²=0.995  AIC=18.78  AICc=18.78  BIC=21.81  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.882  ρ_AR1=-0.504  [warn residual AR1]  BP_p=0.394
+  ablation: ΔRMSE_in = -57.823 (model − EGR-7)
+  Q_exp = R * S_resp = 10.2562
+  saved fig: /work/out/figs/DO168_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0031  |  Median χ²_red: 0.584
+ Median DW: 2.205  |  Median ρ_AR1: -0.235
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 2  —  galaxies 9..12 of 175 (Total Pages: 44)
+
+[DO170] rows(raw)=8, rows(used)=8
+  R range: [1.87, 12.3]  |  V range: [min 27.7, max 62.2]
+  model: EGR-10  |  ΔBIC=-75.4 (F7_fallback), ΔBIC_χ²=-59.6
+  s_frac=0.0112  χ²_red=1.000  R²=0.998  AIC=6.52  AICc=6.52  BIC=7.31  [bound hits — chosen:2, f7:0, f10:2]
+  DW=3.284  ρ_AR1=-0.650  [warn residual AR1]  BP_p=0.877
+  ablation: ΔRMSE_in = -71.080 (model − EGR-7)
+  Q_exp = R * S_resp = 12.2304
+  saved fig: /work/out/figs/DO170_rc.png
+
+[SO079-G014] rows(raw)=15, rows(used)=15
+  R range: [0.41, 16.7]  |  V range: [min 33.2, max 178]
+  model: EGR-10  |  ΔBIC=-89.9 (F7_fallback), ΔBIC_χ²=-70.9
+  s_frac=0.0000  χ²_red=0.387  R²=0.996  AIC=52.35  AICc=107.35  BIC=59.43  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=2.545  ρ_AR1=-0.289  BP_p=0.132
+  ablation: ΔRMSE_in = -74.274 (model − EGR-7)
+  Q_exp = R * S_resp = 367.778
+  saved fig: /work/out/figs/SO079-G014_rc.png
+
+[SO116-G012] rows(raw)=15, rows(used)=15
+  R range: [0.25, 9.86]  |  V range: [min 20.9, max 112]
+  model: EGR-10  |  ΔBIC=-97.9 (F7_fallback), ΔBIC_χ²=-183.6
+  s_frac=0.0000  χ²_red=0.785  R²=0.995  AIC=40.69  AICc=95.69  BIC=47.77  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.712  ρ_AR1=-0.360  [warn residual AR1]  BP_p=0.352
+  ablation: ΔRMSE_in = -66.414 (model − EGR-7)
+  Q_exp = R * S_resp = 62.2966
+  saved fig: /work/out/figs/SO116-G012_rc.png
+
+[SO444-G084] rows(raw)=7, rows(used)=7
+  R range: [0.26, 4.44]  |  V range: [min 18.3, max 63.1]
+  model: EGR-10  |  ΔBIC=-61.0 (F7_fallback), ΔBIC_χ²=-179.2
+  s_frac=0.0000  χ²_red=0.148  R²=0.998  AIC=13.06  AICc=13.06  BIC=12.52  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.995  ρ_AR1=-0.503  [warn residual AR1]  BP_p=0.577
+  ablation: ΔRMSE_in = -71.271 (model − EGR-7)
+  Q_exp = R * S_resp = 21.9111
+  saved fig: /work/out/figs/SO444-G084_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.586
+ Median DW: 2.854  |  Median ρ_AR1: -0.431
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 3  —  galaxies 13..16 of 175 (Total Pages: 44)
+
+[SO563-G021] rows(raw)=30, rows(used)=30
+  R range: [0.45, 42.4]  |  V range: [min 18.9, max 321]
+  model: EGR-10  |  ΔBIC=-141.7 (F7_fallback), ΔBIC_χ²=-157.8
+  s_frac=0.0409  χ²_red=1.000  R²=0.989  AIC=153.92  AICc=165.50  BIC=167.93  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.324  ρ_AR1=0.335  [warn residual AR1]  BP_p=0.193
+  ablation: ΔRMSE_in = -102.931 (model − EGR-7)
+  Q_exp = R * S_resp = 117.169
+  saved fig: /work/out/figs/SO563-G021_rc.png
+
+[561-1] rows(raw)=6, rows(used)=6
+  R range: [1.61, 9.66]  |  V range: [min 23.4, max 50.4]
+  model: EGR-10  |  ΔBIC=-51.6 (F7_fallback), ΔBIC_χ²=-51.2
+  s_frac=0.0000  χ²_red=0.047  R²=0.996  AIC=13.77  AICc=13.77  BIC=11.69  [conservative σ]  [bound hits — chosen:4, f7:0, f10:4]
+  DW=1.381  ρ_AR1=0.001  BP_p=0.320
+  ablation: ΔRMSE_in = -67.869 (model − EGR-7)
+  Q_exp = R * S_resp = 46.6431
+  saved fig: /work/out/figs/561-1_rc.png
+
+[563-1] rows(raw)=17, rows(used)=17
+  R range: [1.07, 20.1]  |  V range: [min 22.1, max 112]
+  model: EGR-10  |  ΔBIC=-107.5 (F7_fallback), ΔBIC_χ²=-149.8
+  s_frac=0.0000  χ²_red=0.114  R²=0.989  AIC=52.89  AICc=89.55  BIC=61.22  [conservative σ]  [bound hits — chosen:3, f7:0, f10:2]
+  DW=1.901  ρ_AR1=-0.343  [warn residual AR1]  BP_p=0.139
+  ablation: ΔRMSE_in = -77.050 (model − EGR-7)
+  Q_exp = R * S_resp = 368.773
+  saved fig: /work/out/figs/563-1_rc.png
+
+[563-V1] rows(raw)=6, rows(used)=6
+  R range: [1.31, 7.87]  |  V range: [min 12, max 29.5]
+  model: EGR-10  |  ΔBIC=-66.6 (F7_fallback), ΔBIC_χ²=-235.8
+  s_frac=0.0000  χ²_red=0.009  R²=0.999  AIC=0.02  AICc=0.02  BIC=-2.06  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=3.650  ρ_AR1=-0.884  [warn residual AR1]  BP_p=0.345
+  ablation: ΔRMSE_in = -75.916 (model − EGR-7)
+  Q_exp = R * S_resp = 12.8624
+  saved fig: /work/out/figs/563-V1_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.081
+ Median DW: 1.641  |  Median ρ_AR1: -0.171
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 4  —  galaxies 17..20 of 175 (Total Pages: 44)
+
+[563-V2] rows(raw)=10, rows(used)=10
+  R range: [0.28, 10.5]  |  V range: [min 11.9, max 118]
+  model: EGR-10  |  ΔBIC=-86.1 (F7_fallback), ΔBIC_χ²=-323.1
+  s_frac=0.0000  χ²_red=0.010  R²=1.000  AIC=15.69  AICc=15.69  BIC=18.72  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=1.702  ρ_AR1=0.042  BP_p=0.025  [hetero p<0.05]
+  ablation: ΔRMSE_in = -83.716 (model − EGR-7)
+  Q_exp = R * S_resp = 107.132
+  saved fig: /work/out/figs/563-V2_rc.png
+
+[565-V2] rows(raw)=7, rows(used)=7
+  R range: [1.26, 8.8]  |  V range: [min 21.7, max 83.1]
+  model: EGR-10  |  ΔBIC=-94.7 (F7_fallback), ΔBIC_χ²=-55.3
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-23.65  AICc=-23.65  BIC=-24.19  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.676  ρ_AR1=-0.605  [warn residual AR1]  BP_p=0.534
+  ablation: ΔRMSE_in = -58.326 (model − EGR-7)
+  Q_exp = R * S_resp = 199.831
+  saved fig: /work/out/figs/565-V2_rc.png
+
+[567-2] rows(raw)=5, rows(used)=5
+  R range: [1.92, 9.59]  |  V range: [min 26.9, max 52.2]
+  model: EGR-10  |  ΔBIC=-285.1 (F7_fallback), ΔBIC_χ²=-33.6
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-211.51  AICc=-211.51  BIC=-215.42  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.321  ρ_AR1=-0.346  [warn residual AR1]  BP_p=0.025  [hetero p<0.05]
+  ablation: ΔRMSE_in = -64.939 (model − EGR-7)
+  Q_exp = R * S_resp = 40.7992
+  saved fig: /work/out/figs/567-2_rc.png
+
+[568-1] rows(raw)=12, rows(used)=12
+  R range: [0.44, 13.2]  |  V range: [min 15.7, max 142]
+  model: EGR-10  |  ΔBIC=-105.3 (F7_fallback), ΔBIC_χ²=-191.8
+  s_frac=0.0000  χ²_red=0.009  R²=1.000  AIC=9.82  AICc=229.82  BIC=14.67  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.826  ρ_AR1=-0.389  [warn residual AR1]  BP_p=0.055
+  ablation: ΔRMSE_in = -71.090 (model − EGR-7)
+  Q_exp = R * S_resp = 95.6776
+  saved fig: /work/out/figs/568-1_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.005
+ Median DW: 2.074  |  Median ρ_AR1: -0.368
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 5  —  galaxies 21..24 of 175 (Total Pages: 44)
+
+[568-3] rows(raw)=18, rows(used)=18
+  R range: [0.64, 18]  |  V range: [min 12.4, max 120]
+  model: EGR-10  |  ΔBIC=-126.4 (F7_fallback), ΔBIC_χ²=-449.2
+  s_frac=0.0000  χ²_red=0.085  R²=0.995  AIC=46.92  AICc=78.35  BIC=55.82  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.032  ρ_AR1=-0.023  BP_p=0.632
+  ablation: ΔRMSE_in = -87.838 (model − EGR-7)
+  Q_exp = R * S_resp = 46.0595
+  saved fig: /work/out/figs/568-3_rc.png
+
+[568-V1] rows(raw)=15, rows(used)=15
+  R range: [0.39, 17.6]  |  V range: [min 17.4, max 118]
+  model: EGR-10  |  ΔBIC=-97.1 (F7_fallback), ΔBIC_χ²=-42.1
+  s_frac=0.0000  χ²_red=0.073  R²=0.994  AIC=43.21  AICc=98.21  BIC=50.29  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.581  ρ_AR1=0.130  BP_p=0.623
+  ablation: ΔRMSE_in = -70.247 (model − EGR-7)
+  Q_exp = R * S_resp = 69.6002
+  saved fig: /work/out/figs/568-V1_rc.png
+
+[571-8] rows(raw)=13, rows(used)=13
+  R range: [0.22, 15.6]  |  V range: [min 12.4, max 144]
+  model: EGR-10  |  ΔBIC=-74.3 (F7_fallback), ΔBIC_χ²=-372.1
+  s_frac=0.0505  χ²_red=1.000  R²=0.993  AIC=50.66  AICc=160.66  BIC=56.31  [bound hits — chosen:1, f7:0, f10:0]
+  DW=1.836  ρ_AR1=-0.024  BP_p=0.054
+  ablation: ΔRMSE_in = -80.318 (model − EGR-7)
+  Q_exp = R * S_resp = 33.6379
+  saved fig: /work/out/figs/571-8_rc.png
+
+[571-V1] rows(raw)=7, rows(used)=7
+  R range: [1.95, 13.6]  |  V range: [min 32, max 84.3]
+  model: EGR-10  |  ΔBIC=-50.9 (F7_fallback), ΔBIC_χ²=-30.0
+  s_frac=0.0000  χ²_red=0.128  R²=0.996  AIC=21.73  AICc=21.73  BIC=21.19  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=2.347  ρ_AR1=-0.363  [warn residual AR1]  BP_p=0.022  [hetero p<0.05]
+  ablation: ΔRMSE_in = -63.809 (model − EGR-7)
+  Q_exp = R * S_resp = 170.968
+  saved fig: /work/out/figs/571-V1_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.107
+ Median DW: 1.934  |  Median ρ_AR1: -0.024
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 6  —  galaxies 25..28 of 175 (Total Pages: 44)
+
+[574-1] rows(raw)=14, rows(used)=14
+  R range: [0.47, 12.6]  |  V range: [min 15.3, max 99.7]
+  model: EGR-10  |  ΔBIC=-159.5 (F7_fallback), ΔBIC_χ²=-293.5
+  s_frac=0.0000  χ²_red=0.005  R²=1.000  AIC=-29.30  AICc=44.03  BIC=-22.91  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.726  ρ_AR1=-0.414  [warn residual AR1]  BP_p=0.136
+  ablation: ΔRMSE_in = -67.767 (model − EGR-7)
+  Q_exp = R * S_resp = 445.962
+  saved fig: /work/out/figs/574-1_rc.png
+
+[574-2] rows(raw)=5, rows(used)=5
+  R range: [2.17, 10.8]  |  V range: [min 12.6, max 40]
+  model: EGR-10  |  ΔBIC=-60.9 (F7_fallback), ΔBIC_χ²=-130.5
+  s_frac=0.0000  χ²_red=0.001  R²=1.000  AIC=-1.21  AICc=-1.21  BIC=-5.11  [conservative σ]  [bound hits — chosen:4, f7:0, f10:4]
+  DW=3.199  ρ_AR1=-0.785  [warn residual AR1]  BP_p=0.216
+  ablation: ΔRMSE_in = -85.632 (model − EGR-7)
+  Q_exp = R * S_resp = 57.2542
+  saved fig: /work/out/figs/574-2_rc.png
+
+[579-V1] rows(raw)=14, rows(used)=14
+  R range: [0.42, 15.2]  |  V range: [min 35.7, max 114]
+  model: EGR-10  |  ΔBIC=-109.1 (F7_fallback), ΔBIC_χ²=-40.4
+  s_frac=0.0000  χ²_red=0.020  R²=0.998  AIC=16.51  AICc=89.85  BIC=22.90  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=1.732  ρ_AR1=0.120  BP_p=0.321
+  ablation: ΔRMSE_in = -56.839 (model − EGR-7)
+  Q_exp = R * S_resp = 329.776
+  saved fig: /work/out/figs/579-V1_rc.png
+
+[583-1] rows(raw)=25, rows(used)=25
+  R range: [0.26, 16.3]  |  V range: [min 10, max 86.9]
+  model: EGR-10  |  ΔBIC=-182.2 (F7_fallback), ΔBIC_χ²=-1200.1
+  s_frac=0.0000  χ²_red=0.148  R²=0.991  AIC=60.75  AICc=76.47  BIC=72.94  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=1.857  ρ_AR1=-0.035  BP_p=0.189
+  ablation: ΔRMSE_in = -102.568 (model − EGR-7)
+  Q_exp = R * S_resp = 23.0922
+  saved fig: /work/out/figs/583-1_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.012
+ Median DW: 2.292  |  Median ρ_AR1: -0.224
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 7  —  galaxies 29..32 of 175 (Total Pages: 44)
+
+[583-4] rows(raw)=12, rows(used)=12
+  R range: [0.22, 7.29]  |  V range: [min 10.7, max 69.9]
+  model: EGR-10  |  ΔBIC=-96.3 (F7_fallback), ΔBIC_χ²=-547.6
+  s_frac=0.0000  χ²_red=0.358  R²=0.997  AIC=19.76  AICc=239.76  BIC=24.61  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.605  ρ_AR1=-0.412  [warn residual AR1]  BP_p=0.109
+  ablation: ΔRMSE_in = -75.844 (model − EGR-7)
+  Q_exp = R * S_resp = 14.8378
+  saved fig: /work/out/figs/583-4_rc.png
+
+[C2574] rows(raw)=34, rows(used)=34
+  R range: [0.85, 10.2]  |  V range: [min 10.3, max 67.5]
+  model: EGR-10  |  ΔBIC=-230.0 (F7_fallback), ΔBIC_χ²=-1323.6
+  s_frac=0.0098  χ²_red=1.000  R²=0.983  AIC=72.30  AICc=81.87  BIC=87.56  [bound hits — chosen:1, f7:0, f10:2]
+  DW=1.543  ρ_AR1=0.225  BP_p=0.118
+  ablation: ΔRMSE_in = -72.771 (model − EGR-7)
+  Q_exp = R * S_resp = 8.64252
+  saved fig: /work/out/figs/C2574_rc.png
+
+[C4202] rows(raw)=32, rows(used)=32
+  R range: [0.77, 25.9]  |  V range: [min 35.1, max 250]
+  model: EGR-10  |  ΔBIC=-153.5 (F7_fallback), ΔBIC_χ²=-35.5
+  s_frac=0.0330  χ²_red=1.000  R²=0.984  AIC=138.78  AICc=149.26  BIC=153.44  [bound hits — chosen:1, f7:0, f10:1]
+  DW=0.784  ρ_AR1=0.497  [warn residual AR1]  BP_p=0.393
+  ablation: ΔRMSE_in = -76.259 (model − EGR-7)
+  Q_exp = R * S_resp = 469.075
+  saved fig: /work/out/figs/C4202_rc.png
+
+[K98-251] rows(raw)=15, rows(used)=15
+  R range: [0.25, 3.13]  |  V range: [min 4.25, max 34.6]
+  model: EGR-10  |  ΔBIC=-148.2 (F7_fallback), ΔBIC_χ²=-3290.2
+  s_frac=0.0000  χ²_red=0.110  R²=0.999  AIC=-8.79  AICc=46.21  BIC=-1.71  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=2.280  ρ_AR1=-0.207  BP_p=0.081
+  ablation: ΔRMSE_in = -69.883 (model − EGR-7)
+  Q_exp = R * S_resp = 17.4265
+  saved fig: /work/out/figs/K98-251_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0049  |  Median χ²_red: 0.679
+ Median DW: 1.911  |  Median ρ_AR1: 0.009
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 8  —  galaxies 33..36 of 175 (Total Pages: 44)
+
+[GC0024] rows(raw)=29, rows(used)=29
+  R range: [0.21, 11.3]  |  V range: [min 17.4, max 110]
+  model: EGR-10  |  ΔBIC=-189.6 (F7_fallback), ΔBIC_χ²=-320.7
+  s_frac=0.0000  χ²_red=0.286  R²=0.990  AIC=72.89  AICc=85.11  BIC=86.56  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=0.805  ρ_AR1=0.538  [warn residual AR1]  BP_p=0.568
+  ablation: ΔRMSE_in = -75.384 (model − EGR-7)
+  Q_exp = R * S_resp = 418.112
+  saved fig: /work/out/figs/GC0024_rc.png
+
+[GC0055] rows(raw)=21, rows(used)=21
+  R range: [1.23, 13.5]  |  V range: [min 28.7, max 87.4]
+  model: EGR-10  |  ΔBIC=-167.6 (F7_fallback), ΔBIC_χ²=-104.7
+  s_frac=0.0000  χ²_red=0.161  R²=0.997  AIC=17.46  AICc=39.46  BIC=27.90  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.764  ρ_AR1=0.111  BP_p=0.295
+  ablation: ΔRMSE_in = -62.315 (model − EGR-7)
+  Q_exp = R * S_resp = 105.396
+  saved fig: /work/out/figs/GC0055_rc.png
+
+[GC0100] rows(raw)=21, rows(used)=21
+  R range: [0.23, 9.62]  |  V range: [min 6.81, max 91.2]
+  model: EGR-10  |  ΔBIC=-166.8 (F7_fallback), ΔBIC_χ²=-620.8
+  s_frac=0.0000  χ²_red=0.103  R²=0.996  AIC=36.08  AICc=58.08  BIC=46.53  [conservative σ]  [bound hits — chosen:3, f7:0, f10:2]
+  DW=0.770  ρ_AR1=0.609  [warn residual AR1]  BP_p=0.015  [hetero p<0.05]
+  ablation: ΔRMSE_in = -70.261 (model − EGR-7)
+  Q_exp = R * S_resp = 34.5575
+  saved fig: /work/out/figs/GC0100_rc.png
+
+[GC0247] rows(raw)=26, rows(used)=26
+  R range: [1.08, 14.5]  |  V range: [min 34.6, max 108]
+  model: EGR-10  |  ΔBIC=-201.7 (F7_fallback), ΔBIC_χ²=-70.1
+  s_frac=0.0000  χ²_red=0.050  R²=0.998  AIC=19.13  AICc=33.80  BIC=31.71  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.489  ρ_AR1=0.239  BP_p=0.032  [hetero p<0.05]
+  ablation: ΔRMSE_in = -56.367 (model − EGR-7)
+  Q_exp = R * S_resp = 50.1504
+  saved fig: /work/out/figs/GC0247_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.132
+ Median DW: 1.147  |  Median ρ_AR1: 0.389
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 9  —  galaxies 37..40 of 175 (Total Pages: 44)
+
+[GC0289] rows(raw)=28, rows(used)=28
+  R range: [1.5, 71.1]  |  V range: [min 156, max 194]
+  model: EGR-10  |  ΔBIC=-108.9 (F7_fallback), ΔBIC_χ²=+7.0
+  s_frac=0.0128  χ²_red=1.000  R²=0.429  AIC=130.39  AICc=143.33  BIC=143.71  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.046  ρ_AR1=0.467  [warn residual AR1]  BP_p=0.003  [hetero p<0.05]
+  ablation: ΔRMSE_in = -55.345 (model − EGR-7)
+  Q_exp = R * S_resp = 262.034
+  saved fig: /work/out/figs/GC0289_rc.png
+
+[GC0300] rows(raw)=25, rows(used)=25
+  R range: [0.91, 11.8]  |  V range: [min 33.1, max 97]
+  model: EGR-10  |  ΔBIC=-142.2 (F7_fallback), ΔBIC_χ²=-61.1
+  s_frac=0.0000  χ²_red=0.373  R²=0.976  AIC=66.16  AICc=81.88  BIC=78.35  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.177  ρ_AR1=0.399  [warn residual AR1]  BP_p=0.270
+  ablation: ΔRMSE_in = -49.944 (model − EGR-7)
+  Q_exp = R * S_resp = 59.0185
+  saved fig: /work/out/figs/GC0300_rc.png
+
+[GC0801] rows(raw)=13, rows(used)=13
+  R range: [1.17, 59.8]  |  V range: [min 123, max 238]
+  model: EGR-10  |  ΔBIC=-26.7 (F7_fallback), ΔBIC_χ²=+4.7
+  s_frac=0.0954  χ²_red=1.000  R²=0.913  AIC=79.22  AICc=189.22  BIC=84.87  [bound hits — chosen:3, f7:0, f10:2]
+  DW=2.068  ρ_AR1=-0.037  BP_p=0.168
+  ablation: ΔRMSE_in = -28.799 (model − EGR-7)
+  Q_exp = R * S_resp = 546.996
+  saved fig: /work/out/figs/GC0801_rc.png
+
+[GC0891] rows(raw)=18, rows(used)=18
+  R range: [0.92, 17.1]  |  V range: [min 192, max 234]
+  model: EGR-10  |  ΔBIC=-101.5 (F7_fallback), ΔBIC_χ²=+2.7
+  s_frac=0.0000  χ²_red=0.627  R²=0.829  AIC=68.37  AICc=99.80  BIC=77.27  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=1.755  ρ_AR1=0.122  BP_p=0.115
+  ablation: ΔRMSE_in = -77.992 (model − EGR-7)
+  Q_exp = R * S_resp = 1113.24
+  saved fig: /work/out/figs/GC0891_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0064  |  Median χ²_red: 0.814
+ Median DW: 1.466  |  Median ρ_AR1: 0.260
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 10  —  galaxies 41..44 of 175 (Total Pages: 44)
+
+[GC1003] rows(raw)=36, rows(used)=36
+  R range: [1.25, 30.2]  |  V range: [min 47, max 115]
+  model: EGR-10  |  ΔBIC=-256.7 (F7_fallback), ΔBIC_χ²=-66.2
+  s_frac=0.0000  χ²_red=0.525  R²=0.981  AIC=72.56  AICc=81.36  BIC=88.40  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.302  ρ_AR1=0.314  [warn residual AR1]  BP_p=0.131
+  ablation: ΔRMSE_in = -83.081 (model − EGR-7)
+  Q_exp = R * S_resp = 461.672
+  saved fig: /work/out/figs/GC1003_rc.png
+
+[GC1090] rows(raw)=24, rows(used)=24
+  R range: [0.35, 30.1]  |  V range: [min 20.9, max 176]
+  model: EGR-10  |  ΔBIC=-115.6 (F7_fallback), ΔBIC_χ²=-126.4
+  s_frac=0.0000  χ²_red=0.926  R²=0.986  AIC=92.48  AICc=109.41  BIC=104.26  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.844  ρ_AR1=-0.045  BP_p=0.024  [hetero p<0.05]
+  ablation: ΔRMSE_in = -56.810 (model − EGR-7)
+  Q_exp = R * S_resp = 171.679
+  saved fig: /work/out/figs/GC1090_rc.png
+
+[GC1705] rows(raw)=14, rows(used)=14
+  R range: [0.22, 6]  |  V range: [min 50.2, max 73.2]
+  model: EGR-10  |  ΔBIC=-116.7 (F7_fallback), ΔBIC_χ²=-16.4
+  s_frac=0.0000  χ²_red=0.035  R²=0.991  AIC=4.81  AICc=78.14  BIC=11.20  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=3.178  ρ_AR1=-0.596  [warn residual AR1]  BP_p=0.049  [hetero p<0.05]
+  ablation: ΔRMSE_in = -49.288 (model − EGR-7)
+  Q_exp = R * S_resp = 135.497
+  saved fig: /work/out/figs/GC1705_rc.png
+
+[GC2366] rows(raw)=26, rows(used)=26
+  R range: [0.12, 6.06]  |  V range: [min 4.2, max 53.7]
+  model: EGR-10  |  ΔBIC=-220.9 (F7_fallback), ΔBIC_χ²=-3319.3
+  s_frac=0.0000  χ²_red=0.301  R²=0.996  AIC=13.83  AICc=28.49  BIC=26.41  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.355  ρ_AR1=0.322  [warn residual AR1]  BP_p=0.410
+  ablation: ΔRMSE_in = -74.042 (model − EGR-7)
+  Q_exp = R * S_resp = 7.55744
+  saved fig: /work/out/figs/GC2366_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.413
+ Median DW: 1.599  |  Median ρ_AR1: 0.135
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 11  —  galaxies 45..48 of 175 (Total Pages: 44)
+
+[GC2403] rows(raw)=73, rows(used)=73
+  R range: [0.16, 20.9]  |  V range: [min 24.5, max 136]
+  model: EGR-10  |  ΔBIC=-379.4 (F7_fallback), ΔBIC_χ²=-253.5
+  s_frac=0.0316  χ²_red=1.000  R²=0.979  AIC=214.87  AICc=218.42  BIC=237.77  [bound hits — chosen:1, f7:0, f10:0]
+  DW=0.192  ρ_AR1=0.888  [warn residual AR1]  BP_p=0.091
+  ablation: ΔRMSE_in = -69.556 (model − EGR-7)
+  Q_exp = R * S_resp = 528.941
+  saved fig: /work/out/figs/GC2403_rc.png
+
+[GC2683] rows(raw)=11, rows(used)=11
+  R range: [2.89, 34.6]  |  V range: [min 150, max 212]
+  model: EGR-10  |  ΔBIC=-23.9 (F7_fallback), ΔBIC_χ²=+4.2
+  s_frac=0.1239  χ²_red=1.000  R²=0.889  AIC=63.50  AICc=63.50  BIC=67.48  [bound hits — chosen:0, f7:0, f10:0]
+  DW=2.975  ρ_AR1=-0.497  [warn residual AR1]  BP_p=0.984
+  ablation: ΔRMSE_in = -22.911 (model − EGR-7)
+  Q_exp = R * S_resp = 253.027
+  saved fig: /work/out/figs/GC2683_rc.png
+
+[GC2841] rows(raw)=50, rows(used)=50
+  R range: [3.44, 63.6]  |  V range: [min 271, max 323]
+  model: EGR-10  |  ΔBIC=-307.8 (F7_fallback), ΔBIC_χ²=-10.0
+  s_frac=0.0000  χ²_red=0.532  R²=0.965  AIC=134.43  AICc=140.08  BIC=153.56  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=0.892  ρ_AR1=0.548  [warn residual AR1]  BP_p=0.756
+  ablation: ΔRMSE_in = -73.541 (model − EGR-7)
+  Q_exp = R * S_resp = 1187.11
+  saved fig: /work/out/figs/GC2841_rc.png
+
+[GC2903] rows(raw)=34, rows(used)=34
+  R range: [0.32, 25]  |  V range: [min 44, max 216]
+  model: EGR-10  |  ΔBIC=-94.5 (F7_fallback), ΔBIC_χ²=-10.9
+  s_frac=0.1017  χ²_red=1.000  R²=0.944  AIC=168.16  AICc=177.72  BIC=183.42  [bound hits — chosen:2, f7:0, f10:2]
+  DW=0.666  ρ_AR1=0.456  [warn residual AR1]  BP_p=0.074
+  ablation: ΔRMSE_in = -42.883 (model − EGR-7)
+  Q_exp = R * S_resp = 344.535
+  saved fig: /work/out/figs/GC2903_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0667  |  Median χ²_red: 1.000
+ Median DW: 0.779  |  Median ρ_AR1: 0.502
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 12  —  galaxies 49..52 of 175 (Total Pages: 44)
+
+[GC2915] rows(raw)=30, rows(used)=30
+  R range: [0.34, 10]  |  V range: [min 13.5, max 86.5]
+  model: EGR-10  |  ΔBIC=-188.3 (F7_fallback), ΔBIC_χ²=-258.5
+  s_frac=0.0000  χ²_red=0.108  R²=0.985  AIC=67.30  AICc=78.87  BIC=81.31  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.344  ρ_AR1=0.292  BP_p=0.051
+  ablation: ΔRMSE_in = -57.988 (model − EGR-7)
+  Q_exp = R * S_resp = 318.285
+  saved fig: /work/out/figs/GC2915_rc.png
+
+[GC2955] rows(raw)=24, rows(used)=24
+  R range: [0.75, 35.4]  |  V range: [min 169, max 276]
+  model: EGR-10  |  ΔBIC=-104.6 (F7_fallback), ΔBIC_χ²=+6.5
+  s_frac=0.0223  χ²_red=1.000  R²=0.916  AIC=113.72  AICc=130.64  BIC=125.50  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.695  ρ_AR1=0.151  BP_p=0.146
+  ablation: ΔRMSE_in = -69.491 (model − EGR-7)
+  Q_exp = R * S_resp = 516.895
+  saved fig: /work/out/figs/GC2955_rc.png
+
+[GC2976] rows(raw)=27, rows(used)=27
+  R range: [0.11, 2.27]  |  V range: [min 6.8, max 88.7]
+  model: EGR-10  |  ΔBIC=-193.8 (F7_fallback), ΔBIC_χ²=-1806.5
+  s_frac=0.0000  χ²_red=0.389  R²=0.995  AIC=49.31  AICc=63.06  BIC=62.27  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.129  ρ_AR1=0.435  [warn residual AR1]  BP_p=0.801
+  ablation: ΔRMSE_in = -73.104 (model − EGR-7)
+  Q_exp = R * S_resp = 133.304
+  saved fig: /work/out/figs/GC2976_rc.png
+
+[GC2998] rows(raw)=13, rows(used)=13
+  R range: [0.33, 42.3]  |  V range: [min 90, max 214]
+  model: EGR-10  |  ΔBIC=-54.9 (F7_fallback), ΔBIC_χ²=+4.4
+  s_frac=0.0000  χ²_red=0.920  R²=0.986  AIC=60.14  AICc=170.14  BIC=65.79  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.804  ρ_AR1=-0.420  [warn residual AR1]  BP_p=0.102
+  ablation: ΔRMSE_in = -47.311 (model − EGR-7)
+  Q_exp = R * S_resp = 565.877
+  saved fig: /work/out/figs/GC2998_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.655
+ Median DW: 1.519  |  Median ρ_AR1: 0.222
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 13  —  galaxies 53..56 of 175 (Total Pages: 44)
+
+[GC3109] rows(raw)=25, rows(used)=25
+  R range: [0.26, 6.45]  |  V range: [min 6.1, max 67.3]
+  model: EGR-10  |  ΔBIC=-208.9 (F7_fallback), ΔBIC_χ²=-2602.5
+  s_frac=0.0000  χ²_red=0.126  R²=0.998  AIC=14.36  AICc=30.08  BIC=26.55  [conservative σ]  [bound hits — chosen:4, f7:0, f10:4]
+  DW=1.402  ρ_AR1=0.282  BP_p=0.747
+  ablation: ΔRMSE_in = -69.861 (model − EGR-7)
+  Q_exp = R * S_resp = 22.5468
+  saved fig: /work/out/figs/GC3109_rc.png
+
+[GC3198] rows(raw)=43, rows(used)=43
+  R range: [0.32, 44.1]  |  V range: [min 24.4, max 157]
+  model: EGR-10  |  ΔBIC=-302.8 (F7_fallback), ΔBIC_χ²=-115.5
+  s_frac=0.0000  χ²_red=0.460  R²=0.996  AIC=93.17  AICc=100.05  BIC=110.79  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=0.884  ρ_AR1=0.558  [warn residual AR1]  BP_p=0.082
+  ablation: ΔRMSE_in = -87.928 (model − EGR-7)
+  Q_exp = R * S_resp = 466.988
+  saved fig: /work/out/figs/GC3198_rc.png
+
+[GC3521] rows(raw)=41, rows(used)=41
+  R range: [0.51, 17.7]  |  V range: [min 143, max 220]
+  model: EGR-10  |  ΔBIC=-255.8 (F7_fallback), ΔBIC_χ²=-20.7
+  s_frac=0.0000  χ²_red=0.071  R²=0.962  AIC=111.88  AICc=119.21  BIC=129.01  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.294  ρ_AR1=0.339  [warn residual AR1]  BP_p=0.093
+  ablation: ΔRMSE_in = -76.430 (model − EGR-7)
+  Q_exp = R * S_resp = 815.249
+  saved fig: /work/out/figs/GC3521_rc.png
+
+[GC3726] rows(raw)=12, rows(used)=12
+  R range: [3.5, 32.5]  |  V range: [min 102, max 169]
+  model: EGR-10  |  ΔBIC=-62.8 (F7_fallback), ΔBIC_χ²=+4.2
+  s_frac=0.0000  χ²_red=0.849  R²=0.987  AIC=38.76  AICc=258.76  BIC=43.61  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=3.116  ρ_AR1=-0.614  [warn residual AR1]  BP_p=0.221
+  ablation: ΔRMSE_in = -38.571 (model − EGR-7)
+  Q_exp = R * S_resp = 557.245
+  saved fig: /work/out/figs/GC3726_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.293
+ Median DW: 1.348  |  Median ρ_AR1: 0.311
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 14  —  galaxies 57..60 of 175 (Total Pages: 44)
+
+[GC3741] rows(raw)=21, rows(used)=21
+  R range: [0.23, 7]  |  V range: [min 13.1, max 51.6]
+  model: EGR-10  |  ΔBIC=-169.7 (F7_fallback), ΔBIC_χ²=-815.8
+  s_frac=0.0000  χ²_red=0.491  R²=0.989  AIC=26.38  AICc=48.38  BIC=36.82  [conservative σ]  [bound hits — chosen:2, f7:0, f10:3]
+  DW=1.177  ρ_AR1=0.406  [warn residual AR1]  BP_p=0.280
+  ablation: ΔRMSE_in = -81.056 (model − EGR-7)
+  Q_exp = R * S_resp = 8.32323
+  saved fig: /work/out/figs/GC3741_rc.png
+
+[GC3769] rows(raw)=12, rows(used)=12
+  R range: [1.74, 37.2]  |  V range: [min 87.5, max 126]
+  model: EGR-10  |  ΔBIC=-76.3 (F7_fallback), ΔBIC_χ²=-6.5
+  s_frac=0.0000  χ²_red=0.294  R²=0.941  AIC=41.60  AICc=261.60  BIC=46.45  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.721  ρ_AR1=-0.020  BP_p=0.157
+  ablation: ΔRMSE_in = -78.188 (model − EGR-7)
+  Q_exp = R * S_resp = 467.071
+  saved fig: /work/out/figs/GC3769_rc.png
+
+[GC3877] rows(raw)=13, rows(used)=13
+  R range: [0.87, 11.3]  |  V range: [min 37.8, max 171]
+  model: EGR-10  |  ΔBIC=-67.6 (F7_fallback), ΔBIC_χ²=-23.0
+  s_frac=0.0000  χ²_red=0.975  R²=0.991  AIC=54.83  AICc=164.83  BIC=60.48  [bound hits — chosen:2, f7:0, f10:2]
+  DW=0.801  ρ_AR1=0.367  [warn residual AR1]  BP_p=0.055
+  ablation: ΔRMSE_in = -65.275 (model − EGR-7)
+  Q_exp = R * S_resp = 880.391
+  saved fig: /work/out/figs/GC3877_rc.png
+
+[GC3893] rows(raw)=10, rows(used)=10
+  R range: [1.74, 19.1]  |  V range: [min 145, max 194]
+  model: EGR-10  |  ΔBIC=-46.4 (F7_fallback), ΔBIC_χ²=+4.9
+  s_frac=0.0233  χ²_red=1.000  R²=0.955  AIC=41.34  AICc=41.34  BIC=44.37  [bound hits — chosen:4, f7:0, f10:2]
+  DW=2.532  ρ_AR1=-0.407  [warn residual AR1]  BP_p=0.874
+  ablation: ΔRMSE_in = -39.292 (model − EGR-7)
+  Q_exp = R * S_resp = 1198.37
+  saved fig: /work/out/figs/GC3893_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.733
+ Median DW: 1.449  |  Median ρ_AR1: 0.173
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 15  —  galaxies 61..64 of 175 (Total Pages: 44)
+
+[GC3917] rows(raw)=17, rows(used)=17
+  R range: [0.87, 14.9]  |  V range: [min 24.3, max 138]
+  model: EGR-10  |  ΔBIC=-92.1 (F7_fallback), ΔBIC_χ²=-103.9
+  s_frac=0.0191  χ²_red=1.000  R²=0.992  AIC=57.05  AICc=93.71  BIC=65.38  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.234  ρ_AR1=0.311  [warn residual AR1]  BP_p=0.164
+  ablation: ΔRMSE_in = -53.991 (model − EGR-7)
+  Q_exp = R * S_resp = 467.194
+  saved fig: /work/out/figs/GC3917_rc.png
+
+[GC3949] rows(raw)=7, rows(used)=7
+  R range: [1.74, 7.07]  |  V range: [min 123, max 169]
+  model: EGR-10  |  ΔBIC=-63.5 (F7_fallback), ΔBIC_χ²=+2.6
+  s_frac=0.0000  χ²_red=0.008  R²=0.999  AIC=10.80  AICc=10.80  BIC=10.26  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.722  ρ_AR1=-0.723  [warn residual AR1]  BP_p=0.080
+  ablation: ΔRMSE_in = -72.927 (model − EGR-7)
+  Q_exp = R * S_resp = 280.633
+  saved fig: /work/out/figs/GC3949_rc.png
+
+[GC3953] rows(raw)=8, rows(used)=8
+  R range: [3.5, 15.7]  |  V range: [min 181, max 224]
+  model: EGR-10  |  ΔBIC=-60.9 (F7_fallback), ΔBIC_χ²=+3.9
+  s_frac=0.0000  χ²_red=0.282  R²=0.992  AIC=23.99  AICc=23.99  BIC=24.78  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.955  ρ_AR1=-0.682  [warn residual AR1]  BP_p=0.021  [hetero p<0.05]
+  ablation: ΔRMSE_in = -83.695 (model − EGR-7)
+  Q_exp = R * S_resp = 1057.45
+  saved fig: /work/out/figs/GC3953_rc.png
+
+[GC3972] rows(raw)=10, rows(used)=10
+  R range: [0.87, 8.72]  |  V range: [min 39.6, max 134]
+  model: EGR-10  |  ΔBIC=-71.1 (F7_fallback), ΔBIC_χ²=-18.1
+  s_frac=0.0000  χ²_red=0.463  R²=0.999  AIC=21.66  AICc=21.66  BIC=24.69  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.511  ρ_AR1=-0.509  [warn residual AR1]  BP_p=0.030  [hetero p<0.05]
+  ablation: ΔRMSE_in = -52.701 (model − EGR-7)
+  Q_exp = R * S_resp = 278.134
+  saved fig: /work/out/figs/GC3972_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.372
+ Median DW: 2.616  |  Median ρ_AR1: -0.596
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 16  —  galaxies 65..68 of 175 (Total Pages: 44)
+
+[GC3992] rows(raw)=9, rows(used)=9
+  R range: [9.19, 46]  |  V range: [min 237, max 272]
+  model: EGR-10  |  ΔBIC=-43.2 (F7_fallback), ΔBIC_χ²=+5.6
+  s_frac=0.0175  χ²_red=1.000  R²=0.956  AIC=38.32  AICc=38.32  BIC=40.29  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.966  ρ_AR1=-0.497  [warn residual AR1]  BP_p=0.644
+  ablation: ΔRMSE_in = -43.454 (model − EGR-7)
+  Q_exp = R * S_resp = 995.647
+  saved fig: /work/out/figs/GC3992_rc.png
+
+[GC4010] rows(raw)=12, rows(used)=12
+  R range: [0.87, 10.5]  |  V range: [min 39.3, max 129]
+  model: EGR-10  |  ΔBIC=-83.0 (F7_fallback), ΔBIC_χ²=-26.9
+  s_frac=0.0000  χ²_red=0.246  R²=0.998  AIC=25.63  AICc=245.63  BIC=30.48  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=2.967  ρ_AR1=-0.494  [warn residual AR1]  BP_p=0.277
+  ablation: ΔRMSE_in = -53.474 (model − EGR-7)
+  Q_exp = R * S_resp = 447.539
+  saved fig: /work/out/figs/GC4010_rc.png
+
+[GC4013] rows(raw)=36, rows(used)=36
+  R range: [5.49, 31]  |  V range: [min 162, max 198]
+  model: EGR-10  |  ΔBIC=-89.1 (F7_fallback), ΔBIC_χ²=-8.2
+  s_frac=0.0000  χ²_red=0.387  R²=0.888  AIC=110.93  AICc=119.73  BIC=126.77  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=0.713  ρ_AR1=0.661  [warn residual AR1]  BP_p=0.310
+  ablation: ΔRMSE_in = -10.622 (model − EGR-7)
+  Q_exp = R * S_resp = 1091.74
+  saved fig: /work/out/figs/GC4013_rc.png
+
+[GC4051] rows(raw)=7, rows(used)=7
+  R range: [1.74, 12.2]  |  V range: [min 116, max 161]
+  model: EGR-10  |  ΔBIC=-366.7 (F7_fallback), ΔBIC_χ²=+4.7
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-241.82  AICc=-241.82  BIC=-242.36  [conservative σ]  [bound hits — chosen:0, f7:0, f10:1]
+  DW=3.539  ρ_AR1=-0.853  [warn residual AR1]  BP_p=0.008  [hetero p<0.05]
+  ablation: ΔRMSE_in = -40.638 (model − EGR-7)
+  Q_exp = R * S_resp = 446.128
+  saved fig: /work/out/figs/GC4051_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.317
+ Median DW: 2.966  |  Median ρ_AR1: -0.496
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 17  —  galaxies 69..72 of 175 (Total Pages: 44)
+
+[GC4068] rows(raw)=6, rows(used)=6
+  R range: [0.21, 2.33]  |  V range: [min 4.68, max 41.9]
+  model: EGR-10  |  ΔBIC=-339.9 (F7_fallback), ΔBIC_χ²=-1242.1
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-283.34  AICc=-283.34  BIC=-285.42  [conservative σ]  [bound hits — chosen:2, f7:0, f10:3]
+  DW=0.427  ρ_AR1=0.798  [warn residual AR1]  BP_p=0.014  [hetero p<0.05]
+  ablation: ΔRMSE_in = -77.341 (model − EGR-7)
+  Q_exp = R * S_resp = 76.9623
+  saved fig: /work/out/figs/GC4068_rc.png
+
+[GC4085] rows(raw)=7, rows(used)=7
+  R range: [0.87, 6.2]  |  V range: [min 42.2, max 136]
+  model: EGR-10  |  ΔBIC=-67.0 (F7_fallback), ΔBIC_χ²=-9.2
+  s_frac=0.0000  χ²_red=0.026  R²=1.000  AIC=5.20  AICc=5.20  BIC=4.65  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=3.454  ρ_AR1=-1.028  [warn residual AR1]  BP_p=0.056
+  ablation: ΔRMSE_in = -62.870 (model − EGR-7)
+  Q_exp = R * S_resp = 498.217
+  saved fig: /work/out/figs/GC4085_rc.png
+
+[GC4088] rows(raw)=12, rows(used)=12
+  R range: [1.74, 21.5]  |  V range: [min 84.9, max 182]
+  model: EGR-10  |  ΔBIC=-67.5 (F7_fallback), ΔBIC_χ²=+3.1
+  s_frac=0.0000  χ²_red=0.325  R²=0.995  AIC=34.19  AICc=254.19  BIC=39.03  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=2.438  ρ_AR1=-0.303  [warn residual AR1]  BP_p=0.281
+  ablation: ΔRMSE_in = -39.284 (model − EGR-7)
+  Q_exp = R * S_resp = 904.166
+  saved fig: /work/out/figs/GC4088_rc.png
+
+[GC4100] rows(raw)=24, rows(used)=24
+  R range: [2.61, 22.8]  |  V range: [min 120, max 195]
+  model: EGR-10  |  ΔBIC=-87.4 (F7_fallback), ΔBIC_χ²=+1.1
+  s_frac=0.0000  χ²_red=0.615  R²=0.937  AIC=91.76  AICc=108.68  BIC=103.54  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=0.713  ρ_AR1=0.547  [warn residual AR1]  BP_p=0.326
+  ablation: ΔRMSE_in = -29.126 (model − EGR-7)
+  Q_exp = R * S_resp = 832.953
+  saved fig: /work/out/figs/GC4100_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.175
+ Median DW: 1.576  |  Median ρ_AR1: 0.122
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 18  —  galaxies 73..76 of 175 (Total Pages: 44)
+
+[GC4138] rows(raw)=7, rows(used)=7
+  R range: [2.61, 18.6]  |  V range: [min 145, max 195]
+  model: EGR-10  |  ΔBIC=-36.2 (F7_fallback), ΔBIC_χ²=+4.9
+  s_frac=0.0000  χ²_red=0.046  R²=0.993  AIC=25.42  AICc=25.42  BIC=24.87  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=3.403  ρ_AR1=-0.729  [warn residual AR1]  BP_p=0.647
+  ablation: ΔRMSE_in = -28.170 (model − EGR-7)
+  Q_exp = R * S_resp = 584.883
+  saved fig: /work/out/figs/GC4138_rc.png
+
+[GC4157] rows(raw)=17, rows(used)=17
+  R range: [1.74, 29.6]  |  V range: [min 96.4, max 201]
+  model: EGR-10  |  ΔBIC=-97.7 (F7_fallback), ΔBIC_χ²=-0.9
+  s_frac=0.0000  χ²_red=0.084  R²=0.996  AIC=33.34  AICc=70.00  BIC=41.67  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.356  ρ_AR1=0.288  BP_p=0.678
+  ablation: ΔRMSE_in = -32.137 (model − EGR-7)
+  Q_exp = R * S_resp = 1116.03
+  saved fig: /work/out/figs/GC4157_rc.png
+
+[GC4183] rows(raw)=23, rows(used)=23
+  R range: [0.87, 21]  |  V range: [min 47.1, max 115]
+  model: EGR-10  |  ΔBIC=-169.1 (F7_fallback), ΔBIC_χ²=-33.7
+  s_frac=0.0000  χ²_red=0.074  R²=0.994  AIC=32.23  AICc=50.56  BIC=43.58  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.915  ρ_AR1=-0.001  BP_p=0.183
+  ablation: ΔRMSE_in = -61.886 (model − EGR-7)
+  Q_exp = R * S_resp = 278.873
+  saved fig: /work/out/figs/GC4183_rc.png
+
+[GC4214] rows(raw)=14, rows(used)=14
+  R range: [0.21, 5.63]  |  V range: [min 55.5, max 80.6]
+  model: EGR-10  |  ΔBIC=-124.1 (F7_fallback), ΔBIC_χ²=-13.0
+  s_frac=0.0000  χ²_red=0.023  R²=0.997  AIC=-2.51  AICc=70.82  BIC=3.88  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.565  ρ_AR1=-0.326  [warn residual AR1]  BP_p=0.029  [hetero p<0.05]
+  ablation: ΔRMSE_in = -49.554 (model − EGR-7)
+  Q_exp = R * S_resp = 63.7792
+  saved fig: /work/out/figs/GC4214_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.060
+ Median DW: 2.240  |  Median ρ_AR1: -0.164
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 19  —  galaxies 77..80 of 175 (Total Pages: 44)
+
+[GC4217] rows(raw)=19, rows(used)=19
+  R range: [0.87, 16.7]  |  V range: [min 47.8, max 191]
+  model: EGR-10  |  ΔBIC=-80.2 (F7_fallback), ΔBIC_χ²=-7.2
+  s_frac=0.0260  χ²_red=1.000  R²=0.974  AIC=86.16  AICc=113.66  BIC=95.61  [bound hits — chosen:1, f7:0, f10:1]
+  DW=0.805  ρ_AR1=0.322  [warn residual AR1]  BP_p=0.011  [hetero p<0.05]
+  ablation: ΔRMSE_in = -56.142 (model − EGR-7)
+  Q_exp = R * S_resp = 604.214
+  saved fig: /work/out/figs/GC4217_rc.png
+
+[GC4389] rows(raw)=6, rows(used)=6
+  R range: [0.87, 5.32]  |  V range: [min 27.3, max 110]
+  model: EGR-10  |  ΔBIC=-49.7 (F7_fallback), ΔBIC_χ²=-27.9
+  s_frac=0.0000  χ²_red=0.041  R²=1.000  AIC=12.48  AICc=12.48  BIC=10.40  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=3.498  ρ_AR1=-0.882  [warn residual AR1]  BP_p=0.118
+  ablation: ΔRMSE_in = -52.180 (model − EGR-7)
+  Q_exp = R * S_resp = 194.796
+  saved fig: /work/out/figs/GC4389_rc.png
+
+[GC4559] rows(raw)=32, rows(used)=32
+  R range: [0.67, 21]  |  V range: [min 43.8, max 124]
+  model: EGR-10  |  ΔBIC=-226.8 (F7_fallback), ΔBIC_χ²=-39.9
+  s_frac=0.0000  χ²_red=0.079  R²=0.994  AIC=41.64  AICc=52.11  BIC=56.29  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=1.068  ρ_AR1=0.465  [warn residual AR1]  BP_p=0.008  [hetero p<0.05]
+  ablation: ΔRMSE_in = -56.016 (model − EGR-7)
+  Q_exp = R * S_resp = 391.958
+  saved fig: /work/out/figs/GC4559_rc.png
+
+[GC5005] rows(raw)=18, rows(used)=18
+  R range: [0.49, 11.5]  |  V range: [min 211, max 265]
+  model: EGR-10  |  ΔBIC=-118.5 (F7_fallback), ΔBIC_χ²=-2.0
+  s_frac=0.0000  χ²_red=0.064  R²=0.934  AIC=70.34  AICc=101.77  BIC=79.24  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=2.996  ρ_AR1=-0.585  [warn residual AR1]  BP_p=0.028  [hetero p<0.05]
+  ablation: ΔRMSE_in = -134.609 (model − EGR-7)
+  Q_exp = R * S_resp = 892.866
+  saved fig: /work/out/figs/GC5005_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.071
+ Median DW: 2.032  |  Median ρ_AR1: -0.132
+ Heteroscedastic (BP p<0.05): 3
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 20  —  galaxies 81..84 of 175 (Total Pages: 44)
+
+[GC5033] rows(raw)=22, rows(used)=22
+  R range: [0.76, 44.6]  |  V range: [min 191, max 225]
+  model: EGR-10  |  ΔBIC=-78.2 (F7_fallback), ΔBIC_χ²=+3.2
+  s_frac=0.0000  χ²_red=0.740  R²=0.953  AIC=60.44  AICc=80.44  BIC=71.35  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.434  ρ_AR1=0.236  BP_p=0.519
+  ablation: ΔRMSE_in = -15.779 (model − EGR-7)
+  Q_exp = R * S_resp = 901.993
+  saved fig: /work/out/figs/GC5033_rc.png
+
+[GC5055] rows(raw)=28, rows(used)=28
+  R range: [0.72, 54.6]  |  V range: [min 125, max 206]
+  model: EGR-10  |  ΔBIC=-102.2 (F7_fallback), ΔBIC_χ²=+7.0
+  s_frac=0.0133  χ²_red=1.000  R²=0.886  AIC=117.97  AICc=130.91  BIC=131.29  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.265  ρ_AR1=0.289  BP_p=0.208
+  ablation: ΔRMSE_in = -32.975 (model − EGR-7)
+  Q_exp = R * S_resp = 521.479
+  saved fig: /work/out/figs/GC5055_rc.png
+
+[GC5371] rows(raw)=19, rows(used)=19
+  R range: [1.45, 46.2]  |  V range: [min 207, max 242]
+  model: EGR-10  |  ΔBIC=-85.9 (F7_fallback), ΔBIC_χ²=+3.5
+  s_frac=0.0000  χ²_red=0.737  R²=0.976  AIC=44.37  AICc=71.87  BIC=53.82  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.761  ρ_AR1=0.114  BP_p=0.385
+  ablation: ΔRMSE_in = -21.069 (model − EGR-7)
+  Q_exp = R * S_resp = 808.864
+  saved fig: /work/out/figs/GC5371_rc.png
+
+[GC5585] rows(raw)=24, rows(used)=24
+  R range: [0.09, 11]  |  V range: [min 11.2, max 92.3]
+  model: EGR-10  |  ΔBIC=-154.9 (F7_fallback), ΔBIC_χ²=-981.5
+  s_frac=0.1830  χ²_red=1.000  R²=0.988  AIC=69.20  AICc=86.13  BIC=80.98  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.177  ρ_AR1=-0.037  BP_p=0.097
+  ablation: ΔRMSE_in = -94.147 (model − EGR-7)
+  Q_exp = R * S_resp = 99.3423
+  saved fig: /work/out/figs/GC5585_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0066  |  Median χ²_red: 0.870
+ Median DW: 1.350  |  Median ρ_AR1: 0.175
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 21  —  galaxies 85..88 of 175 (Total Pages: 44)
+
+[GC5907] rows(raw)=19, rows(used)=19
+  R range: [5.03, 50.3]  |  V range: [min 211, max 235]
+  model: EGR-10  |  ΔBIC=-41.3 (F7_fallback), ΔBIC_χ²=+5.8
+  s_frac=0.0146  χ²_red=1.000  R²=0.819  AIC=66.18  AICc=93.68  BIC=75.62  [bound hits — chosen:0, f7:0, f10:0]
+  DW=2.054  ρ_AR1=-0.027  BP_p=0.222
+  ablation: ΔRMSE_in = -9.912 (model − EGR-7)
+  Q_exp = R * S_resp = 102.246
+  saved fig: /work/out/figs/GC5907_rc.png
+
+[GC5985] rows(raw)=33, rows(used)=33
+  R range: [3.54, 34.7]  |  V range: [min 223, max 305]
+  model: EGR-10  |  ΔBIC=-225.4 (F7_fallback), ΔBIC_χ²=-1.1
+  s_frac=0.0000  χ²_red=0.629  R²=0.977  AIC=91.14  AICc=101.14  BIC=106.10  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.603  ρ_AR1=0.171  BP_p=0.287
+  ablation: ΔRMSE_in = -101.919 (model − EGR-7)
+  Q_exp = R * S_resp = 617.128
+  saved fig: /work/out/figs/GC5985_rc.png
+
+[GC6015] rows(raw)=44, rows(used)=44
+  R range: [0.34, 29.2]  |  V range: [min 35.5, max 166]
+  model: EGR-10  |  ΔBIC=-196.6 (F7_fallback), ΔBIC_χ²=-38.2
+  s_frac=0.0449  χ²_red=1.000  R²=0.959  AIC=168.72  AICc=175.39  BIC=186.56  [bound hits — chosen:1, f7:0, f10:2]
+  DW=0.810  ρ_AR1=0.547  [warn residual AR1]  BP_p=0.283
+  ablation: ΔRMSE_in = -50.981 (model − EGR-7)
+  Q_exp = R * S_resp = 153.877
+  saved fig: /work/out/figs/GC6015_rc.png
+
+[GC6195] rows(raw)=23, rows(used)=23
+  R range: [1.33, 36.4]  |  V range: [min 175, max 258]
+  model: EGR-10  |  ΔBIC=-63.4 (F7_fallback), ΔBIC_χ²=+6.4
+  s_frac=0.0177  χ²_red=1.000  R²=0.740  AIC=116.64  AICc=134.97  BIC=127.99  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.479  ρ_AR1=0.042  BP_p=0.136
+  ablation: ΔRMSE_in = -48.791 (model − EGR-7)
+  Q_exp = R * S_resp = 194.228
+  saved fig: /work/out/figs/GC6195_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0162  |  Median χ²_red: 1.000
+ Median DW: 1.541  |  Median ρ_AR1: 0.107
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 22  —  galaxies 89..92 of 175 (Total Pages: 44)
+
+[GC6503] rows(raw)=31, rows(used)=31
+  R range: [0.76, 23.5]  |  V range: [min 77, max 121]
+  model: EGR-10  |  ΔBIC=-128.0 (F7_fallback), ΔBIC_χ²=+7.3
+  s_frac=0.0000  χ²_red=0.620  R²=0.974  AIC=32.90  AICc=43.90  BIC=47.24  [conservative σ]  [bound hits — chosen:0, f7:0, f10:2]
+  DW=1.314  ρ_AR1=0.339  [warn residual AR1]  BP_p=0.343
+  ablation: ΔRMSE_in = -48.167 (model − EGR-7)
+  Q_exp = R * S_resp = 338.193
+  saved fig: /work/out/figs/GC6503_rc.png
+
+[GC6674] rows(raw)=15, rows(used)=15
+  R range: [2.5, 72.4]  |  V range: [min 206, max 291]
+  model: EGR-10  |  ΔBIC=-42.9 (F7_fallback), ΔBIC_χ²=+3.4
+  s_frac=0.0000  χ²_red=0.653  R²=0.962  AIC=62.18  AICc=117.18  BIC=69.26  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.771  ρ_AR1=-0.463  [warn residual AR1]  BP_p=0.090
+  ablation: ΔRMSE_in = -18.274 (model − EGR-7)
+  Q_exp = R * S_resp = 525.653
+  saved fig: /work/out/figs/GC6674_rc.png
+
+[GC6789] rows(raw)=4, rows(used)=4
+  R range: [0.1, 0.71]  |  V range: [min 13.9, max 60.4]
+  [skip] status=too_few_points
+
+[GC6946] rows(raw)=58, rows(used)=58
+  R range: [0.19, 20.4]  |  V range: [min 128, max 181]
+  model: EGR-10  |  ΔBIC=-175.3 (F7_fallback), ΔBIC_χ²=+6.7
+  s_frac=0.0000  χ²_red=0.949  R²=0.771  AIC=245.53  AICc=250.21  BIC=266.13  [bound hits — chosen:1, f7:0, f10:1]
+  DW=0.599  ρ_AR1=0.703  [warn residual AR1]  BP_p=0.000  [hetero p<0.05]
+  ablation: ΔRMSE_in = -28.192 (model − EGR-7)
+  Q_exp = R * S_resp = 467.086
+  saved fig: /work/out/figs/GC6946_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 3  |  Failures: 1
+ Selected EGR-10: 3/3  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.653
+ Median DW: 1.314  |  Median ρ_AR1: 0.339
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:3
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 23  —  galaxies 93..96 of 175 (Total Pages: 44)
+
+[GC7331] rows(raw)=36, rows(used)=36
+  R range: [2.67, 36.3]  |  V range: [min 221, max 257]
+  model: EGR-10  |  ΔBIC=-205.3 (F7_fallback), ΔBIC_χ²=-11.9
+  s_frac=0.0000  χ²_red=0.244  R²=0.905  AIC=85.93  AICc=94.73  BIC=101.76  [conservative σ]  [bound hits — chosen:3, f7:0, f10:2]
+  DW=1.292  ρ_AR1=0.331  [warn residual AR1]  BP_p=0.131
+  ablation: ΔRMSE_in = -47.726 (model − EGR-7)
+  Q_exp = R * S_resp = 1151.67
+  saved fig: /work/out/figs/GC7331_rc.png
+
+[GC7793] rows(raw)=46, rows(used)=46
+  R range: [0.11, 7.87]  |  V range: [min 9.1, max 116]
+  model: EGR-10  |  ΔBIC=-284.8 (F7_fallback), ΔBIC_χ²=-1038.5
+  s_frac=0.0000  χ²_red=0.411  R²=0.984  AIC=143.58  AICc=149.87  BIC=161.87  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=0.356  ρ_AR1=0.785  [warn residual AR1]  BP_p=0.951
+  ablation: ΔRMSE_in = -92.135 (model − EGR-7)
+  Q_exp = R * S_resp = 15.0477
+  saved fig: /work/out/figs/GC7793_rc.png
+
+[GC7814] rows(raw)=18, rows(used)=18
+  R range: [0.63, 19.5]  |  V range: [min 214, max 265]
+  model: EGR-10  |  ΔBIC=-148.7 (F7_fallback), ΔBIC_χ²=-2.1
+  s_frac=0.0000  χ²_red=0.030  R²=0.995  AIC=17.59  AICc=49.01  BIC=26.49  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=2.599  ρ_AR1=-0.313  [warn residual AR1]  BP_p=0.038  [hetero p<0.05]
+  ablation: ΔRMSE_in = -73.148 (model − EGR-7)
+  Q_exp = R * S_resp = 566.922
+  saved fig: /work/out/figs/GC7814_rc.png
+
+[GC51017] rows(raw)=6, rows(used)=6
+  R range: [0.33, 3.63]  |  V range: [min 18.2, max 20.5]
+  model: EGR-10  |  ΔBIC=-91.4 (F7_fallback), ΔBIC_χ²=-145.5
+  s_frac=0.0000  χ²_red=0.001  R²=0.999  AIC=-25.72  AICc=-25.72  BIC=-27.80  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=2.403  ρ_AR1=-1.176  [warn residual AR1]  BP_p=0.046  [hetero p<0.05]
+  ablation: ΔRMSE_in = -70.347 (model − EGR-7)
+  Q_exp = R * S_resp = 4.0659
+  saved fig: /work/out/figs/GC51017_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.137
+ Median DW: 1.848  |  Median ρ_AR1: 0.009
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 24  —  galaxies 97..100 of 175 (Total Pages: 44)
+
+[GC00128] rows(raw)=22, rows(used)=22
+  R range: [1.25, 53.8]  |  V range: [min 34.1, max 134]
+  model: EGR-10  |  ΔBIC=-114.9 (F7_fallback), ΔBIC_χ²=-56.5
+  s_frac=0.0191  χ²_red=1.000  R²=0.948  AIC=92.25  AICc=112.25  BIC=103.16  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.428  ρ_AR1=0.215  BP_p=0.114
+  ablation: ΔRMSE_in = -98.865 (model − EGR-7)
+  Q_exp = R * S_resp = 638.029
+  saved fig: /work/out/figs/GC00128_rc.png
+
+[GC00191] rows(raw)=9, rows(used)=9
+  R range: [0.62, 9.98]  |  V range: [min 29.9, max 83.8]
+  model: EGR-10  |  ΔBIC=-70.6 (F7_fallback), ΔBIC_χ²=-107.8
+  s_frac=0.0669  χ²_red=1.000  R²=0.996  AIC=23.29  AICc=23.29  BIC=25.26  [bound hits — chosen:1, f7:0, f10:1]
+  DW=3.313  ρ_AR1=-0.661  [warn residual AR1]  BP_p=0.264
+  ablation: ΔRMSE_in = -87.383 (model − EGR-7)
+  Q_exp = R * S_resp = 304.211
+  saved fig: /work/out/figs/GC00191_rc.png
+
+[GC00634] rows(raw)=4, rows(used)=4
+  R range: [4.51, 18]  |  V range: [min 69.8, max 108]
+  [skip] status=too_few_points
+
+[GC00731] rows(raw)=12, rows(used)=12
+  R range: [0.91, 10.9]  |  V range: [min 29.6, max 74]
+  model: EGR-10  |  ΔBIC=-107.8 (F7_fallback), ΔBIC_χ²=-70.1
+  s_frac=0.0000  χ²_red=0.218  R²=0.998  AIC=4.74  AICc=224.74  BIC=9.59  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.919  ρ_AR1=-0.579  [warn residual AR1]  BP_p=0.456
+  ablation: ΔRMSE_in = -63.880 (model − EGR-7)
+  Q_exp = R * S_resp = 134.018
+  saved fig: /work/out/figs/GC00731_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 3  |  Failures: 1
+ Selected EGR-10: 3/3  (100.0%)
+ Median s_frac: 0.0191  |  Median χ²_red: 1.000
+ Median DW: 2.919  |  Median ρ_AR1: -0.579
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:3
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 25  —  galaxies 101..104 of 175 (Total Pages: 44)
+
+[GC00891] rows(raw)=5, rows(used)=5
+  R range: [1.48, 7.39]  |  V range: [min 24.4, max 63.8]
+  model: EGR-10  |  ΔBIC=-44.9 (F7_fallback), ΔBIC_χ²=-37.8
+  s_frac=0.0000  χ²_red=0.131  R²=0.999  AIC=10.04  AICc=10.04  BIC=6.14  [conservative σ]  [bound hits — chosen:2, f7:0, f10:3]
+  DW=2.789  ρ_AR1=-0.685  [warn residual AR1]  BP_p=0.082
+  ablation: ΔRMSE_in = -53.069 (model − EGR-7)
+  Q_exp = R * S_resp = 83.2994
+  saved fig: /work/out/figs/GC00891_rc.png
+
+[GC01230] rows(raw)=11, rows(used)=11
+  R range: [0.78, 36.5]  |  V range: [min 19.8, max 113]
+  model: EGR-10  |  ΔBIC=-69.3 (F7_fallback), ΔBIC_χ²=-156.8
+  s_frac=0.0000  χ²_red=0.657  R²=0.985  AIC=46.83  AICc=46.83  BIC=50.81  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=1.061  ρ_AR1=0.451  [warn residual AR1]  BP_p=0.818
+  ablation: ΔRMSE_in = -105.986 (model − EGR-7)
+  Q_exp = R * S_resp = 225.54
+  saved fig: /work/out/figs/GC01230_rc.png
+
+[GC01281] rows(raw)=25, rows(used)=25
+  R range: [0.08, 4.99]  |  V range: [min 1.41, max 56.9]
+  model: EGR-10  |  ΔBIC=-275.0 (F7_fallback), ΔBIC_χ²=-5019.8
+  s_frac=0.0000  χ²_red=0.007  R²=1.000  AIC=-42.88  AICc=-27.17  BIC=-30.69  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.296  ρ_AR1=0.295  BP_p=0.447
+  ablation: ΔRMSE_in = -84.035 (model − EGR-7)
+  Q_exp = R * S_resp = 10.7693
+  saved fig: /work/out/figs/GC01281_rc.png
+
+[GC02023] rows(raw)=5, rows(used)=5
+  R range: [0.76, 3.78]  |  V range: [min 15.1, max 58.8]
+  model: EGR-10  |  ΔBIC=-215.1 (F7_fallback), ΔBIC_χ²=-57.7
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-181.57  AICc=-181.57  BIC=-185.47  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.501  ρ_AR1=-1.233  [warn residual AR1]  BP_p=0.025  [hetero p<0.05]
+  ablation: ΔRMSE_in = -49.781 (model − EGR-7)
+  Q_exp = R * S_resp = 72.9901
+  saved fig: /work/out/figs/GC02023_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.069
+ Median DW: 1.898  |  Median ρ_AR1: -0.195
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 26  —  galaxies 105..108 of 175 (Total Pages: 44)
+
+[GC02259] rows(raw)=8, rows(used)=8
+  R range: [1.02, 8.14]  |  V range: [min 56.1, max 90]
+  model: EGR-10  |  ΔBIC=-148.8 (F7_fallback), ΔBIC_χ²=-1.8
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-76.24  AICc=-76.24  BIC=-75.45  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=3.713  ρ_AR1=-0.858  [warn residual AR1]  BP_p=0.397
+  ablation: ΔRMSE_in = -39.560 (model − EGR-7)
+  Q_exp = R * S_resp = 273.113
+  saved fig: /work/out/figs/GC02259_rc.png
+
+[GC02455] rows(raw)=8, rows(used)=8
+  R range: [0.5, 4.03]  |  V range: [min 16.9, max 61]
+  model: EGR-10  |  ΔBIC=-70.4 (F7_fallback), ΔBIC_χ²=-143.3
+  s_frac=0.0000  χ²_red=0.136  R²=0.999  AIC=8.09  AICc=8.09  BIC=8.88  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.756  ρ_AR1=-0.417  [warn residual AR1]  BP_p=0.120
+  ablation: ΔRMSE_in = -56.730 (model − EGR-7)
+  Q_exp = R * S_resp = 49.6401
+  saved fig: /work/out/figs/GC02455_rc.png
+
+[GC02487] rows(raw)=17, rows(used)=17
+  R range: [9.93, 80.4]  |  V range: [min 329, max 383]
+  model: EGR-10  |  ΔBIC=-139.5 (F7_fallback), ΔBIC_χ²=-1.1
+  s_frac=0.0000  χ²_red=0.059  R²=0.995  AIC=32.70  AICc=69.36  BIC=41.03  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.780  ρ_AR1=0.026  BP_p=0.210
+  ablation: ΔRMSE_in = -111.310 (model − EGR-7)
+  Q_exp = R * S_resp = 503.221
+  saved fig: /work/out/figs/GC02487_rc.png
+
+[GC02885] rows(raw)=19, rows(used)=19
+  R range: [1.7, 74.1]  |  V range: [min 256, max 305]
+  model: EGR-10  |  ΔBIC=-94.4 (F7_fallback), ΔBIC_χ²=-1.0
+  s_frac=0.0000  χ²_red=0.235  R²=0.937  AIC=65.82  AICc=93.32  BIC=75.27  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.602  ρ_AR1=-0.332  [warn residual AR1]  BP_p=0.038  [hetero p<0.05]
+  ablation: ΔRMSE_in = -47.205 (model − EGR-7)
+  Q_exp = R * S_resp = 456.049
+  saved fig: /work/out/figs/GC02885_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.098
+ Median DW: 2.679  |  Median ρ_AR1: -0.375
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 27  —  galaxies 109..112 of 175 (Total Pages: 44)
+
+[GC02916] rows(raw)=43, rows(used)=43
+  R range: [0.37, 38]  |  V range: [min 181, max 218]
+  model: EGR-10  |  ΔBIC=-97.5 (F7_fallback), ΔBIC_χ²=-3.4
+  s_frac=0.0000  χ²_red=0.645  R²=0.010  AIC=215.93  AICc=222.81  BIC=233.55  [conservative σ]  [bound hits — chosen:2, f7:0, f10:0]
+  DW=0.390  ρ_AR1=0.870  [warn residual AR1]  BP_p=0.360
+  ablation: ΔRMSE_in = -24.812 (model − EGR-7)
+  Q_exp = R * S_resp = 880.46
+  saved fig: /work/out/figs/GC02916_rc.png
+
+[GC02953] rows(raw)=115, rows(used)=115
+  R range: [0.09, 62.4]  |  V range: [min 231, max 319]
+  model: EGR-10  |  ΔBIC=-490.3 (F7_fallback), ΔBIC_χ²=+11.2
+  s_frac=0.0117  χ²_red=1.000  R²=0.949  AIC=445.91  AICc=448.02  BIC=473.36  [bound hits — chosen:2, f7:0, f10:2]
+  DW=0.161  ρ_AR1=0.924  [warn residual AR1]  BP_p=0.001  [hetero p<0.05]
+  ablation: ΔRMSE_in = -57.138 (model − EGR-7)
+  Q_exp = R * S_resp = 413.914
+  saved fig: /work/out/figs/GC02953_rc.png
+
+[GC03205] rows(raw)=48, rows(used)=48
+  R range: [0.28, 40]  |  V range: [min 107, max 237]
+  model: EGR-10  |  ΔBIC=-259.9 (F7_fallback), ΔBIC_χ²=-7.1
+  s_frac=0.0000  χ²_red=0.588  R²=0.990  AIC=119.85  AICc=125.80  BIC=138.56  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.119  ρ_AR1=0.428  [warn residual AR1]  BP_p=0.000  [hetero p<0.05]
+  ablation: ΔRMSE_in = -45.052 (model − EGR-7)
+  Q_exp = R * S_resp = 689.245
+  saved fig: /work/out/figs/GC03205_rc.png
+
+[GC03546] rows(raw)=30, rows(used)=30
+  R range: [0.63, 29.2]  |  V range: [min 190, max 262]
+  model: EGR-10  |  ΔBIC=-84.2 (F7_fallback), ΔBIC_χ²=-1.6
+  s_frac=0.0000  χ²_red=0.561  R²=0.861  AIC=136.65  AICc=148.22  BIC=150.66  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.832  ρ_AR1=0.078  BP_p=0.097
+  ablation: ΔRMSE_in = -26.725 (model − EGR-7)
+  Q_exp = R * S_resp = 682.612
+  saved fig: /work/out/figs/GC03546_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.616
+ Median DW: 0.755  |  Median ρ_AR1: 0.649
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 28  —  galaxies 113..116 of 175 (Total Pages: 44)
+
+[GC03580] rows(raw)=47, rows(used)=47
+  R range: [0.11, 27.1]  |  V range: [min 56.2, max 131]
+  model: EGR-10  |  ΔBIC=-247.3 (F7_fallback), ΔBIC_χ²=-119.7
+  s_frac=0.0158  χ²_red=1.000  R²=0.922  AIC=186.09  AICc=192.20  BIC=204.59  [bound hits — chosen:1, f7:0, f10:0]
+  DW=0.669  ρ_AR1=0.664  [warn residual AR1]  BP_p=0.024  [hetero p<0.05]
+  ablation: ΔRMSE_in = -89.364 (model − EGR-7)
+  Q_exp = R * S_resp = 45.9346
+  saved fig: /work/out/figs/GC03580_rc.png
+
+[GC04278] rows(raw)=25, rows(used)=25
+  R range: [0.14, 6.69]  |  V range: [min 5.23, max 92.8]
+  model: EGR-10  |  ΔBIC=-193.4 (F7_fallback), ΔBIC_χ²=-1263.0
+  s_frac=0.0000  χ²_red=0.081  R²=0.997  AIC=30.26  AICc=45.97  BIC=42.45  [conservative σ]  [bound hits — chosen:2, f7:0, f10:3]
+  DW=1.285  ρ_AR1=0.307  [warn residual AR1]  BP_p=0.608
+  ablation: ΔRMSE_in = -70.061 (model − EGR-7)
+  Q_exp = R * S_resp = 7.14151
+  saved fig: /work/out/figs/GC04278_rc.png
+
+[GC04305] rows(raw)=22, rows(used)=22
+  R range: [0.25, 5.52]  |  V range: [min 3.17, max 37.3]
+  model: EGR-10  |  ΔBIC=-175.9 (F7_fallback), ΔBIC_χ²=-2940.4
+  s_frac=0.0000  χ²_red=0.201  R²=0.984  AIC=23.32  AICc=43.32  BIC=34.24  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=1.111  ρ_AR1=0.279  BP_p=0.900
+  ablation: ΔRMSE_in = -71.444 (model − EGR-7)
+  Q_exp = R * S_resp = 3.74078
+  saved fig: /work/out/figs/GC04305_rc.png
+
+[GC04325] rows(raw)=8, rows(used)=8
+  R range: [0.7, 5.59]  |  V range: [min 41.3, max 92.7]
+  model: EGR-10  |  ΔBIC=-64.0 (F7_fallback), ΔBIC_χ²=-10.6
+  s_frac=0.0000  χ²_red=0.283  R²=0.999  AIC=11.10  AICc=11.10  BIC=11.89  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.591  ρ_AR1=-0.523  [warn residual AR1]  BP_p=0.060
+  ablation: ΔRMSE_in = -45.603 (model − EGR-7)
+  Q_exp = R * S_resp = 212.508
+  saved fig: /work/out/figs/GC04325_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.242
+ Median DW: 1.198  |  Median ρ_AR1: 0.293
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 29  —  galaxies 117..120 of 175 (Total Pages: 44)
+
+[GC04483] rows(raw)=8, rows(used)=8
+  R range: [0.08, 1.21]  |  V range: [min 5.11, max 24.3]
+  model: EGR-10  |  ΔBIC=-86.2 (F7_fallback), ΔBIC_χ²=-2207.5
+  s_frac=0.0000  χ²_red=0.180  R²=0.998  AIC=0.10  AICc=0.10  BIC=0.89  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=2.006  ρ_AR1=-0.121  BP_p=0.106
+  ablation: ΔRMSE_in = -92.548 (model − EGR-7)
+  Q_exp = R * S_resp = 4.82126
+  saved fig: /work/out/figs/GC04483_rc.png
+
+[GC04499] rows(raw)=9, rows(used)=9
+  R range: [0.91, 8.18]  |  V range: [min 26, max 74.3]
+  model: EGR-10  |  ΔBIC=-92.6 (F7_fallback), ΔBIC_χ²=-59.9
+  s_frac=0.0000  χ²_red=0.063  R²=1.000  AIC=-6.76  AICc=-6.76  BIC=-4.79  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=2.121  ρ_AR1=-0.075  BP_p=0.091
+  ablation: ΔRMSE_in = -55.748 (model − EGR-7)
+  Q_exp = R * S_resp = 97.0653
+  saved fig: /work/out/figs/GC04499_rc.png
+
+[GC05005] rows(raw)=11, rows(used)=11
+  R range: [0.78, 28.6]  |  V range: [min 14.5, max 100]
+  model: EGR-10  |  ΔBIC=-109.1 (F7_fallback), ΔBIC_χ²=-301.2
+  s_frac=0.0000  χ²_red=0.030  R²=1.000  AIC=8.19  AICc=8.19  BIC=12.17  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.162  ρ_AR1=-0.100  BP_p=0.904
+  ablation: ΔRMSE_in = -115.139 (model − EGR-7)
+  Q_exp = R * S_resp = 16.8349
+  saved fig: /work/out/figs/GC05005_rc.png
+
+[GC05253] rows(raw)=73, rows(used)=73
+  R range: [0.13, 53.3]  |  V range: [min 210, max 248]
+  model: EGR-10  |  ΔBIC=-415.4 (F7_fallback), ΔBIC_χ²=-44.9
+  s_frac=0.0000  χ²_red=0.130  R²=0.944  AIC=137.69  AICc=141.24  BIC=160.60  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=0.750  ρ_AR1=0.660  [warn residual AR1]  BP_p=0.000  [hetero p<0.05]
+  ablation: ΔRMSE_in = -39.828 (model − EGR-7)
+  Q_exp = R * S_resp = 119.302
+  saved fig: /work/out/figs/GC05253_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.096
+ Median DW: 2.064  |  Median ρ_AR1: -0.088
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 30  —  galaxies 121..124 of 175 (Total Pages: 44)
+
+[GC05414] rows(raw)=6, rows(used)=6
+  R range: [0.68, 4.11]  |  V range: [min 20.5, max 61.4]
+  model: EGR-10  |  ΔBIC=-315.6 (F7_fallback), ΔBIC_χ²=-61.2
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-358.80  AICc=-358.80  BIC=-360.88  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.507  ρ_AR1=0.169  BP_p=0.014  [hetero p<0.05]
+  ablation: ΔRMSE_in = -49.628 (model − EGR-7)
+  Q_exp = R * S_resp = 59.714
+  saved fig: /work/out/figs/GC05414_rc.png
+
+[GC05716] rows(raw)=12, rows(used)=12
+  R range: [1.03, 12.4]  |  V range: [min 39.1, max 74.7]
+  model: EGR-10  |  ΔBIC=-101.1 (F7_fallback), ΔBIC_χ²=-40.9
+  s_frac=0.0000  χ²_red=0.494  R²=0.996  AIC=11.89  AICc=231.89  BIC=16.74  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.956  ρ_AR1=-0.357  [warn residual AR1]  BP_p=0.212
+  ablation: ΔRMSE_in = -65.005 (model − EGR-7)
+  Q_exp = R * S_resp = 38.0414
+  saved fig: /work/out/figs/GC05716_rc.png
+
+[GC05721] rows(raw)=23, rows(used)=23
+  R range: [0.09, 6.74]  |  V range: [min 16.5, max 82.6]
+  model: EGR-10  |  ΔBIC=-149.6 (F7_fallback), ΔBIC_χ²=-309.8
+  s_frac=0.0000  χ²_red=0.344  R²=0.983  AIC=56.19  AICc=74.52  BIC=67.54  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=1.066  ρ_AR1=0.457  [warn residual AR1]  BP_p=0.032  [hetero p<0.05]
+  ablation: ΔRMSE_in = -67.456 (model − EGR-7)
+  Q_exp = R * S_resp = 27.2633
+  saved fig: /work/out/figs/GC05721_rc.png
+
+[GC05750] rows(raw)=11, rows(used)=11
+  R range: [0.31, 22.9]  |  V range: [min 3.1, max 78.9]
+  model: EGR-10  |  ΔBIC=-101.6 (F7_fallback), ΔBIC_χ²=-2054.5
+  s_frac=0.0000  χ²_red=0.152  R²=0.999  AIC=16.59  AICc=16.59  BIC=20.57  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=0.761  ρ_AR1=0.458  [warn residual AR1]  BP_p=0.215
+  ablation: ΔRMSE_in = -119.268 (model − EGR-7)
+  Q_exp = R * S_resp = 33.42
+  saved fig: /work/out/figs/GC05750_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.248
+ Median DW: 1.287  |  Median ρ_AR1: 0.313
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 31  —  galaxies 125..128 of 175 (Total Pages: 44)
+
+[GC05764] rows(raw)=10, rows(used)=10
+  R range: [0.36, 3.62]  |  V range: [min 21.4, max 55.8]
+  model: EGR-10  |  ΔBIC=-68.6 (F7_fallback), ΔBIC_χ²=-99.6
+  s_frac=0.0531  χ²_red=1.000  R²=0.992  AIC=18.94  AICc=18.94  BIC=21.96  [bound hits — chosen:1, f7:0, f10:3]
+  DW=2.404  ρ_AR1=-0.206  BP_p=0.308
+  ablation: ΔRMSE_in = -52.121 (model − EGR-7)
+  Q_exp = R * S_resp = 22.8799
+  saved fig: /work/out/figs/GC05764_rc.png
+
+[GC05829] rows(raw)=11, rows(used)=11
+  R range: [0.63, 6.91]  |  V range: [min 14.8, max 68.6]
+  model: EGR-10  |  ΔBIC=-104.9 (F7_fallback), ΔBIC_χ²=-229.7
+  s_frac=0.0000  χ²_red=0.066  R²=0.999  AIC=-0.54  AICc=-0.54  BIC=3.44  [conservative σ]  [bound hits — chosen:1, f7:0, f10:2]
+  DW=3.334  ρ_AR1=-0.687  [warn residual AR1]  BP_p=0.393
+  ablation: ΔRMSE_in = -63.807 (model − EGR-7)
+  Q_exp = R * S_resp = 45.4635
+  saved fig: /work/out/figs/GC05829_rc.png
+
+[GC05918] rows(raw)=8, rows(used)=8
+  R range: [0.56, 4.46]  |  V range: [min 16.9, max 44.5]
+  model: EGR-10  |  ΔBIC=-77.8 (F7_fallback), ΔBIC_χ²=-134.5
+  s_frac=0.0000  χ²_red=0.046  R²=0.999  AIC=0.64  AICc=0.64  BIC=1.43  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.258  ρ_AR1=-0.402  [warn residual AR1]  BP_p=0.009  [hetero p<0.05]
+  ablation: ΔRMSE_in = -56.792 (model − EGR-7)
+  Q_exp = R * S_resp = 18.3526
+  saved fig: /work/out/figs/GC05918_rc.png
+
+[GC05986] rows(raw)=15, rows(used)=15
+  R range: [0.63, 9.41]  |  V range: [min 29.5, max 116]
+  model: EGR-10  |  ΔBIC=-122.4 (F7_fallback), ΔBIC_χ²=-63.5
+  s_frac=0.0000  χ²_red=0.127  R²=0.999  AIC=9.65  AICc=64.65  BIC=16.74  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.810  ρ_AR1=0.050  BP_p=0.047  [hetero p<0.05]
+  ablation: ΔRMSE_in = -54.170 (model − EGR-7)
+  Q_exp = R * S_resp = 289.612
+  saved fig: /work/out/figs/GC05986_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.097
+ Median DW: 2.331  |  Median ρ_AR1: -0.304
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 32  —  galaxies 129..132 of 175 (Total Pages: 44)
+
+[GC05999] rows(raw)=5, rows(used)=5
+  R range: [3.48, 16.2]  |  V range: [min 46.2, max 100]
+  model: EGR-10  |  ΔBIC=-44.9 (F7_fallback), ΔBIC_χ²=-8.0
+  s_frac=0.0000  χ²_red=0.034  R²=1.000  AIC=11.14  AICc=11.14  BIC=7.23  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=2.522  ρ_AR1=-0.804  [warn residual AR1]  BP_p=0.077
+  ablation: ΔRMSE_in = -59.382 (model − EGR-7)
+  Q_exp = R * S_resp = 382.043
+  saved fig: /work/out/figs/GC05999_rc.png
+
+[GC06399] rows(raw)=9, rows(used)=9
+  R range: [0.87, 7.85]  |  V range: [min 24.8, max 87.6]
+  model: EGR-10  |  ΔBIC=-74.0 (F7_fallback), ΔBIC_χ²=-59.2
+  s_frac=0.0000  χ²_red=0.089  R²=0.999  AIC=11.28  AICc=11.28  BIC=13.25  [conservative σ]  [bound hits — chosen:3, f7:0, f10:4]
+  DW=1.611  ρ_AR1=-0.162  BP_p=0.071
+  ablation: ΔRMSE_in = -53.683 (model − EGR-7)
+  Q_exp = R * S_resp = 35.8526
+  saved fig: /work/out/figs/GC06399_rc.png
+
+[GC06446] rows(raw)=17, rows(used)=17
+  R range: [0.58, 10.2]  |  V range: [min 31.3, max 84.9]
+  model: EGR-10  |  ΔBIC=-111.8 (F7_fallback), ΔBIC_χ²=-59.0
+  s_frac=0.0000  χ²_red=0.258  R²=0.985  AIC=36.95  AICc=73.62  BIC=45.28  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.486  ρ_AR1=0.150  BP_p=0.016  [hetero p<0.05]
+  ablation: ΔRMSE_in = -55.026 (model − EGR-7)
+  Q_exp = R * S_resp = 63.8736
+  saved fig: /work/out/figs/GC06446_rc.png
+
+[GC06614] rows(raw)=13, rows(used)=13
+  R range: [3.23, 64.6]  |  V range: [min 170, max 205]
+  model: EGR-10  |  ΔBIC=-94.4 (F7_fallback), ΔBIC_χ²=+1.7
+  s_frac=0.0000  χ²_red=0.010  R²=0.997  AIC=14.67  AICc=124.67  BIC=20.32  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=2.319  ρ_AR1=-0.170  BP_p=0.781
+  ablation: ΔRMSE_in = -40.547 (model − EGR-7)
+  Q_exp = R * S_resp = 656.802
+  saved fig: /work/out/figs/GC06614_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.061
+ Median DW: 1.965  |  Median ρ_AR1: -0.166
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 33  —  galaxies 133..136 of 175 (Total Pages: 44)
+
+[GC06628] rows(raw)=7, rows(used)=7
+  R range: [1.1, 7.69]  |  V range: [min 26.9, max 42.3]
+  model: EGR-10  |  ΔBIC=-87.8 (F7_fallback), ΔBIC_χ²=-48.1
+  s_frac=0.0000  χ²_red=0.001  R²=1.000  AIC=-15.59  AICc=-15.59  BIC=-16.14  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=2.607  ρ_AR1=-0.423  [warn residual AR1]  BP_p=0.367
+  ablation: ΔRMSE_in = -63.165 (model − EGR-7)
+  Q_exp = R * S_resp = 15.5719
+  saved fig: /work/out/figs/GC06628_rc.png
+
+[GC06667] rows(raw)=9, rows(used)=9
+  R range: [0.87, 7.85]  |  V range: [min 26.6, max 85.7]
+  model: EGR-10  |  ΔBIC=-74.6 (F7_fallback), ΔBIC_χ²=-55.2
+  s_frac=0.0000  χ²_red=0.232  R²=0.999  AIC=10.67  AICc=10.67  BIC=12.64  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=3.067  ρ_AR1=-0.551  [warn residual AR1]  BP_p=0.405
+  ablation: ΔRMSE_in = -53.633 (model − EGR-7)
+  Q_exp = R * S_resp = 330.362
+  saved fig: /work/out/figs/GC06667_rc.png
+
+[GC06786] rows(raw)=45, rows(used)=45
+  R range: [0.16, 34]  |  V range: [min 160, max 229]
+  model: EGR-10  |  ΔBIC=-217.0 (F7_fallback), ΔBIC_χ²=-17.5
+  s_frac=0.0000  χ²_red=0.258  R²=0.952  AIC=134.08  AICc=140.55  BIC=152.15  [conservative σ]  [bound hits — chosen:3, f7:0, f10:2]
+  DW=1.382  ρ_AR1=0.307  [warn residual AR1]  BP_p=0.167
+  ablation: ΔRMSE_in = -41.416 (model − EGR-7)
+  Q_exp = R * S_resp = 1110.61
+  saved fig: /work/out/figs/GC06786_rc.png
+
+[GC06787] rows(raw)=71, rows(used)=71
+  R range: [0.12, 37.2]  |  V range: [min 134, max 276]
+  model: EGR-10  |  ΔBIC=-145.7 (F7_fallback), ΔBIC_χ²=+9.8
+  s_frac=0.0292  χ²_red=1.000  R²=0.039  AIC=432.47  AICc=436.14  BIC=455.10  [bound hits — chosen:1, f7:0, f10:2]
+  DW=0.483  ρ_AR1=0.686  [warn residual AR1]  BP_p=0.145
+  ablation: ΔRMSE_in = -38.043 (model − EGR-7)
+  Q_exp = R * S_resp = 247.369
+  saved fig: /work/out/figs/GC06787_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.245
+ Median DW: 1.994  |  Median ρ_AR1: -0.058
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 34  —  galaxies 137..140 of 175 (Total Pages: 44)
+
+[GC06818] rows(raw)=8, rows(used)=8
+  R range: [0.87, 6.98]  |  V range: [min 23.4, max 74.4]
+  model: EGR-10  |  ΔBIC=-72.3 (F7_fallback), ΔBIC_χ²=-79.2
+  s_frac=0.0000  χ²_red=0.056  R²=0.999  AIC=6.80  AICc=6.80  BIC=7.59  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=3.105  ρ_AR1=-0.704  [warn residual AR1]  BP_p=0.137
+  ablation: ΔRMSE_in = -58.788 (model − EGR-7)
+  Q_exp = R * S_resp = 110.094
+  saved fig: /work/out/figs/GC06818_rc.png
+
+[GC06917] rows(raw)=11, rows(used)=11
+  R range: [1.74, 10.5]  |  V range: [min 59.2, max 111]
+  model: EGR-10  |  ΔBIC=-84.4 (F7_fallback), ΔBIC_χ²=+0.9
+  s_frac=0.0000  χ²_red=0.125  R²=0.999  AIC=5.04  AICc=5.04  BIC=9.02  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=3.259  ρ_AR1=-0.768  [warn residual AR1]  BP_p=0.046  [hetero p<0.05]
+  ablation: ΔRMSE_in = -32.087 (model − EGR-7)
+  Q_exp = R * S_resp = 388.411
+  saved fig: /work/out/figs/GC06917_rc.png
+
+[GC06923] rows(raw)=6, rows(used)=6
+  R range: [0.93, 5.16]  |  V range: [min 40.5, max 81.1]
+  model: EGR-10  |  ΔBIC=-72.8 (F7_fallback), ΔBIC_χ²=-5.5
+  s_frac=0.0000  χ²_red=0.001  R²=1.000  AIC=-13.77  AICc=-13.77  BIC=-15.85  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=3.451  ρ_AR1=-0.878  [warn residual AR1]  BP_p=0.173
+  ablation: ΔRMSE_in = -40.264 (model − EGR-7)
+  Q_exp = R * S_resp = 979.074
+  saved fig: /work/out/figs/GC06923_rc.png
+
+[GC06930] rows(raw)=10, rows(used)=10
+  R range: [1.74, 16.6]  |  V range: [min 54.7, max 109]
+  model: EGR-10  |  ΔBIC=-79.9 (F7_fallback), ΔBIC_χ²=-7.0
+  s_frac=0.0000  χ²_red=0.136  R²=0.998  AIC=12.48  AICc=12.48  BIC=15.50  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.423  ρ_AR1=0.254  BP_p=0.030  [hetero p<0.05]
+  ablation: ΔRMSE_in = -51.958 (model − EGR-7)
+  Q_exp = R * S_resp = 414.65
+  saved fig: /work/out/figs/GC06930_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.090
+ Median DW: 3.182  |  Median ρ_AR1: -0.736
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 35  —  galaxies 141..144 of 175 (Total Pages: 44)
+
+[GC06973] rows(raw)=9, rows(used)=9
+  R range: [1.74, 7.85]  |  V range: [min 170, max 180]
+  model: EGR-10  |  ΔBIC=-87.5 (F7_fallback), ΔBIC_χ²=+2.1
+  s_frac=0.0000  χ²_red=0.055  R²=0.984  AIC=5.72  AICc=5.72  BIC=7.70  [conservative σ]  [bound hits — chosen:2, f7:0, f10:3]
+  DW=2.305  ρ_AR1=-0.198  BP_p=0.168
+  ablation: ΔRMSE_in = -83.650 (model − EGR-7)
+  Q_exp = R * S_resp = 723.036
+  saved fig: /work/out/figs/GC06973_rc.png
+
+[GC06983] rows(raw)=17, rows(used)=17
+  R range: [1.74, 15.7]  |  V range: [min 56.9, max 113]
+  model: EGR-10  |  ΔBIC=-75.9 (F7_fallback), ΔBIC_χ²=+0.3
+  s_frac=0.0000  χ²_red=0.759  R²=0.928  AIC=62.99  AICc=99.66  BIC=71.32  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.956  ρ_AR1=-0.266  BP_p=0.143
+  ablation: ΔRMSE_in = -38.865 (model − EGR-7)
+  Q_exp = R * S_resp = 51.575
+  saved fig: /work/out/figs/GC06983_rc.png
+
+[GC07089] rows(raw)=12, rows(used)=12
+  R range: [0.87, 9.16]  |  V range: [min 20.9, max 79.1]
+  model: EGR-10  |  ΔBIC=-89.5 (F7_fallback), ΔBIC_χ²=-121.9
+  s_frac=0.0000  χ²_red=0.185  R²=0.996  AIC=21.42  AICc=241.42  BIC=26.27  [conservative σ]  [bound hits — chosen:4, f7:0, f10:4]
+  DW=2.643  ρ_AR1=-0.382  [warn residual AR1]  BP_p=0.156
+  ablation: ΔRMSE_in = -59.291 (model − EGR-7)
+  Q_exp = R * S_resp = 53.0854
+  saved fig: /work/out/figs/GC07089_rc.png
+
+[GC07125] rows(raw)=13, rows(used)=13
+  R range: [1.44, 18.7]  |  V range: [min 26.1, max 65.6]
+  model: EGR-10  |  ΔBIC=-115.3 (F7_fallback), ΔBIC_χ²=-142.7
+  s_frac=0.0000  χ²_red=0.346  R²=0.995  AIC=15.28  AICc=125.28  BIC=20.93  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=2.056  ρ_AR1=-0.124  BP_p=0.328
+  ablation: ΔRMSE_in = -93.694 (model − EGR-7)
+  Q_exp = R * S_resp = 12.9044
+  saved fig: /work/out/figs/GC07125_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.266
+ Median DW: 2.180  |  Median ρ_AR1: -0.232
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 36  —  galaxies 145..148 of 175 (Total Pages: 44)
+
+[GC07151] rows(raw)=11, rows(used)=11
+  R range: [0.5, 5.5]  |  V range: [min 24.2, max 76.2]
+  model: EGR-10  |  ΔBIC=-89.0 (F7_fallback), ΔBIC_χ²=-77.9
+  s_frac=0.0000  χ²_red=0.769  R²=0.998  AIC=10.95  AICc=10.95  BIC=14.93  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=3.119  ρ_AR1=-0.653  [warn residual AR1]  BP_p=0.389
+  ablation: ΔRMSE_in = -51.763 (model − EGR-7)
+  Q_exp = R * S_resp = 25.7413
+  saved fig: /work/out/figs/GC07151_rc.png
+
+[GC07232] rows(raw)=4, rows(used)=4
+  R range: [0.21, 0.82]  |  V range: [min 16.4, max 44]
+  [skip] status=too_few_points
+
+[GC07261] rows(raw)=7, rows(used)=7
+  R range: [0.95, 6.67]  |  V range: [min 46.8, max 76.1]
+  model: EGR-10  |  ΔBIC=-71.5 (F7_fallback), ΔBIC_χ²=-4.9
+  s_frac=0.0000  χ²_red=0.006  R²=1.000  AIC=-5.29  AICc=-5.29  BIC=-5.84  [conservative σ]  [bound hits — chosen:2, f7:0, f10:3]
+  DW=3.422  ρ_AR1=-0.814  [warn residual AR1]  BP_p=0.115
+  ablation: ΔRMSE_in = -41.047 (model − EGR-7)
+  Q_exp = R * S_resp = 552.418
+  saved fig: /work/out/figs/GC07261_rc.png
+
+[GC07323] rows(raw)=10, rows(used)=10
+  R range: [0.58, 5.82]  |  V range: [min 23.9, max 85.6]
+  model: EGR-10  |  ΔBIC=-89.3 (F7_fallback), ΔBIC_χ²=-81.8
+  s_frac=0.0000  χ²_red=0.140  R²=0.999  AIC=4.40  AICc=4.40  BIC=7.42  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.948  ρ_AR1=-0.528  [warn residual AR1]  BP_p=0.509
+  ablation: ΔRMSE_in = -55.717 (model − EGR-7)
+  Q_exp = R * S_resp = 107.278
+  saved fig: /work/out/figs/GC07323_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 3  |  Failures: 1
+ Selected EGR-10: 3/3  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.140
+ Median DW: 3.119  |  Median ρ_AR1: -0.653
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:3
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 37  —  galaxies 149..152 of 175 (Total Pages: 44)
+
+[GC07399] rows(raw)=10, rows(used)=10
+  R range: [0.61, 6.13]  |  V range: [min 47.3, max 106]
+  model: EGR-10  |  ΔBIC=-88.7 (F7_fallback), ΔBIC_χ²=-8.9
+  s_frac=0.0000  χ²_red=0.132  R²=0.999  AIC=1.44  AICc=1.44  BIC=4.47  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.410  ρ_AR1=-0.297  BP_p=0.141
+  ablation: ΔRMSE_in = -46.802 (model − EGR-7)
+  Q_exp = R * S_resp = 399.694
+  saved fig: /work/out/figs/GC07399_rc.png
+
+[GC07524] rows(raw)=31, rows(used)=31
+  R range: [0.35, 10.7]  |  V range: [min 14.4, max 83.8]
+  model: EGR-10  |  ΔBIC=-247.1 (F7_fallback), ΔBIC_χ²=-557.2
+  s_frac=0.0000  χ²_red=0.172  R²=0.997  AIC=26.15  AICc=37.15  BIC=40.49  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.536  ρ_AR1=0.041  BP_p=0.714
+  ablation: ΔRMSE_in = -69.063 (model − EGR-7)
+  Q_exp = R * S_resp = 34.7031
+  saved fig: /work/out/figs/GC07524_rc.png
+
+[GC07559] rows(raw)=7, rows(used)=7
+  R range: [0.36, 2.53]  |  V range: [min 9.31, max 32.1]
+  model: EGR-10  |  ΔBIC=-95.7 (F7_fallback), ΔBIC_χ²=-406.4
+  s_frac=0.0000  χ²_red=0.001  R²=1.000  AIC=-23.97  AICc=-23.97  BIC=-24.51  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=3.458  ρ_AR1=-0.729  [warn residual AR1]  BP_p=0.280
+  ablation: ΔRMSE_in = -60.834 (model − EGR-7)
+  Q_exp = R * S_resp = 83.3503
+  saved fig: /work/out/figs/GC07559_rc.png
+
+[GC07577] rows(raw)=9, rows(used)=9
+  R range: [0.19, 1.69]  |  V range: [min 3.74, max 17.8]
+  model: EGR-10  |  ΔBIC=-130.3 (F7_fallback), ΔBIC_χ²=-2690.0
+  s_frac=0.0000  χ²_red=0.001  R²=1.000  AIC=-37.66  AICc=-37.66  BIC=-35.69  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=3.584  ρ_AR1=-0.796  [warn residual AR1]  BP_p=0.170
+  ablation: ΔRMSE_in = -81.399 (model − EGR-7)
+  Q_exp = R * S_resp = 4.32656
+  saved fig: /work/out/figs/GC07577_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.067
+ Median DW: 2.934  |  Median ρ_AR1: -0.513
+ Heteroscedastic (BP p<0.05): 0
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 38  —  galaxies 153..156 of 175 (Total Pages: 44)
+
+[GC07603] rows(raw)=12, rows(used)=12
+  R range: [0.34, 4.11]  |  V range: [min 19.6, max 64]
+  model: EGR-10  |  ΔBIC=-113.5 (F7_fallback), ΔBIC_χ²=-138.7
+  s_frac=0.0000  χ²_red=0.093  R²=0.999  AIC=-4.57  AICc=215.43  BIC=0.27  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.080  ρ_AR1=-0.290  BP_p=0.039  [hetero p<0.05]
+  ablation: ΔRMSE_in = -55.076 (model − EGR-7)
+  Q_exp = R * S_resp = 24.4517
+  saved fig: /work/out/figs/GC07603_rc.png
+
+[GC07608] rows(raw)=8, rows(used)=8
+  R range: [0.6, 4.78]  |  V range: [min 14.6, max 69.3]
+  model: EGR-10  |  ΔBIC=-71.7 (F7_fallback), ΔBIC_χ²=-134.4
+  s_frac=0.0000  χ²_red=0.033  R²=0.999  AIC=6.43  AICc=6.43  BIC=7.23  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.709  ρ_AR1=-0.292  BP_p=0.153
+  ablation: ΔRMSE_in = -55.339 (model − EGR-7)
+  Q_exp = R * S_resp = 41.7718
+  saved fig: /work/out/figs/GC07608_rc.png
+
+[GC07690] rows(raw)=7, rows(used)=7
+  R range: [0.59, 4.13]  |  V range: [min 45.3, max 60.7]
+  model: EGR-10  |  ΔBIC=-55.6 (F7_fallback), ΔBIC_χ²=-4.3
+  s_frac=0.0000  χ²_red=0.085  R²=0.990  AIC=9.61  AICc=9.61  BIC=9.07  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.135  ρ_AR1=-0.329  [warn residual AR1]  BP_p=0.186
+  ablation: ΔRMSE_in = -37.847 (model − EGR-7)
+  Q_exp = R * S_resp = 43.5977
+  saved fig: /work/out/figs/GC07690_rc.png
+
+[GC07866] rows(raw)=7, rows(used)=7
+  R range: [0.33, 2.32]  |  V range: [min 12.2, max 33.1]
+  model: EGR-10  |  ΔBIC=-100.2 (F7_fallback), ΔBIC_χ²=-247.2
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-28.38  AICc=-28.38  BIC=-28.92  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=3.663  ρ_AR1=-0.877  [warn residual AR1]  BP_p=0.188
+  ablation: ΔRMSE_in = -61.370 (model − EGR-7)
+  Q_exp = R * S_resp = 28.2845
+  saved fig: /work/out/figs/GC07866_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.059
+ Median DW: 2.108  |  Median ρ_AR1: -0.311
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 39  —  galaxies 157..160 of 175 (Total Pages: 44)
+
+[GC08286] rows(raw)=17, rows(used)=17
+  R range: [0.47, 8.04]  |  V range: [min 22.2, max 84.3]
+  model: EGR-10  |  ΔBIC=-159.2 (F7_fallback), ΔBIC_χ²=-128.4
+  s_frac=0.0000  χ²_red=0.069  R²=0.999  AIC=-11.85  AICc=24.82  BIC=-3.51  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.726  ρ_AR1=-0.039  BP_p=0.055
+  ablation: ΔRMSE_in = -54.039 (model − EGR-7)
+  Q_exp = R * S_resp = 189.527
+  saved fig: /work/out/figs/GC08286_rc.png
+
+[GC08490] rows(raw)=30, rows(used)=30
+  R range: [0.34, 10.2]  |  V range: [min 38.8, max 80.1]
+  model: EGR-10  |  ΔBIC=-266.0 (F7_fallback), ΔBIC_χ²=-61.5
+  s_frac=0.0000  χ²_red=0.032  R²=0.997  AIC=-17.47  AICc=-5.89  BIC=-3.46  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.753  ρ_AR1=0.067  BP_p=0.014  [hetero p<0.05]
+  ablation: ΔRMSE_in = -52.916 (model − EGR-7)
+  Q_exp = R * S_resp = 36.6334
+  saved fig: /work/out/figs/GC08490_rc.png
+
+[GC08550] rows(raw)=11, rows(used)=11
+  R range: [0.49, 5.36]  |  V range: [min 25, max 57.8]
+  model: EGR-10  |  ΔBIC=-91.6 (F7_fallback), ΔBIC_χ²=-74.2
+  s_frac=0.0000  χ²_red=0.779  R²=0.996  AIC=8.82  AICc=8.82  BIC=12.80  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.354  ρ_AR1=-0.199  BP_p=0.912
+  ablation: ΔRMSE_in = -53.009 (model − EGR-7)
+  Q_exp = R * S_resp = 22.6668
+  saved fig: /work/out/figs/GC08550_rc.png
+
+[GC08699] rows(raw)=41, rows(used)=41
+  R range: [0.22, 25.7]  |  V range: [min 152, max 202]
+  model: EGR-10  |  ΔBIC=-65.9 (F7_fallback), ΔBIC_χ²=-6.8
+  s_frac=0.0000  χ²_red=0.517  R²=-0.755  AIC=231.19  AICc=238.53  BIC=248.33  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=0.288  ρ_AR1=0.787  [warn residual AR1]  BP_p=0.038  [hetero p<0.05]
+  ablation: ΔRMSE_in = -20.468 (model − EGR-7)
+  Q_exp = R * S_resp = 590.155
+  saved fig: /work/out/figs/GC08699_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.293
+ Median DW: 1.740  |  Median ρ_AR1: 0.014
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 40  —  galaxies 161..164 of 175 (Total Pages: 44)
+
+[GC08837] rows(raw)=8, rows(used)=8
+  R range: [0.52, 4.2]  |  V range: [min 7.31, max 48]
+  model: EGR-10  |  ΔBIC=-86.9 (F7_fallback), ΔBIC_χ²=-782.8
+  s_frac=0.0000  χ²_red=0.049  R²=1.000  AIC=-6.83  AICc=-6.83  BIC=-6.04  [conservative σ]  [bound hits — chosen:2, f7:0, f10:1]
+  DW=3.592  ρ_AR1=-0.824  [warn residual AR1]  BP_p=0.898
+  ablation: ΔRMSE_in = -62.873 (model − EGR-7)
+  Q_exp = R * S_resp = 13.7024
+  saved fig: /work/out/figs/GC08837_rc.png
+
+[GC09037] rows(raw)=22, rows(used)=22
+  R range: [2.43, 28]  |  V range: [min 62.2, max 160]
+  model: EGR-10  |  ΔBIC=-119.6 (F7_fallback), ΔBIC_χ²=-4.6
+  s_frac=0.0000  χ²_red=0.266  R²=0.989  AIC=62.12  AICc=82.12  BIC=73.03  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=1.288  ρ_AR1=0.239  BP_p=0.240
+  ablation: ΔRMSE_in = -46.133 (model − EGR-7)
+  Q_exp = R * S_resp = 649.786
+  saved fig: /work/out/figs/GC09037_rc.png
+
+[GC09133] rows(raw)=68, rows(used)=68
+  R range: [0.32, 108]  |  V range: [min 222, max 289]
+  model: EGR-10  |  ΔBIC=-144.8 (F7_fallback), ΔBIC_χ²=+9.7
+  s_frac=0.0142  χ²_red=1.000  R²=0.911  AIC=285.42  AICc=289.28  BIC=307.61  [bound hits — chosen:3, f7:0, f10:2]
+  DW=0.233  ρ_AR1=0.886  [warn residual AR1]  BP_p=0.207
+  ablation: ΔRMSE_in = -16.830 (model − EGR-7)
+  Q_exp = R * S_resp = 1197.86
+  saved fig: /work/out/figs/GC09133_rc.png
+
+[GC09992] rows(raw)=5, rows(used)=5
+  R range: [0.78, 3.89]  |  V range: [min 28.1, max 34.3]
+  model: EGR-10  |  ΔBIC=-324.6 (F7_fallback), ΔBIC_χ²=-20.5
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-254.78  AICc=-254.78  BIC=-258.69  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.768  ρ_AR1=-0.566  [warn residual AR1]  BP_p=0.025  [hetero p<0.05]
+  ablation: ΔRMSE_in = -45.658 (model − EGR-7)
+  Q_exp = R * S_resp = 19.032
+  saved fig: /work/out/figs/GC09992_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.158
+ Median DW: 2.028  |  Median ρ_AR1: -0.164
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 41  —  galaxies 165..168 of 175 (Total Pages: 44)
+
+[GC10310] rows(raw)=7, rows(used)=7
+  R range: [1.1, 7.74]  |  V range: [min 33.2, max 73.2]
+  model: EGR-10  |  ΔBIC=-109.4 (F7_fallback), ΔBIC_χ²=-22.4
+  s_frac=0.0000  χ²_red=0.000  R²=1.000  AIC=-40.54  AICc=-40.54  BIC=-41.08  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=3.465  ρ_AR1=-0.888  [warn residual AR1]  BP_p=0.086
+  ablation: ΔRMSE_in = -49.636 (model − EGR-7)
+  Q_exp = R * S_resp = 80.9674
+  saved fig: /work/out/figs/GC10310_rc.png
+
+[GC11455] rows(raw)=36, rows(used)=36
+  R range: [0.62, 41.9]  |  V range: [min 35.1, max 291]
+  model: EGR-10  |  ΔBIC=-180.2 (F7_fallback), ΔBIC_χ²=-50.9
+  s_frac=0.0000  χ²_red=0.926  R²=0.993  AIC=147.78  AICc=156.58  BIC=163.61  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.529  ρ_AR1=0.231  BP_p=0.562
+  ablation: ΔRMSE_in = -77.737 (model − EGR-7)
+  Q_exp = R * S_resp = 246.224
+  saved fig: /work/out/figs/GC11455_rc.png
+
+[GC11557] rows(raw)=12, rows(used)=12
+  R range: [0.33, 10.6]  |  V range: [min 4, max 85]
+  model: EGR-10  |  ΔBIC=-86.0 (F7_fallback), ΔBIC_χ²=-697.0
+  s_frac=0.0000  χ²_red=0.267  R²=0.996  AIC=33.19  AICc=253.19  BIC=38.04  [conservative σ]  [bound hits — chosen:3, f7:0, f10:2]
+  DW=0.854  ρ_AR1=0.404  [warn residual AR1]  BP_p=0.029  [hetero p<0.05]
+  ablation: ΔRMSE_in = -83.219 (model − EGR-7)
+  Q_exp = R * S_resp = 22.9872
+  saved fig: /work/out/figs/GC11557_rc.png
+
+[GC11820] rows(raw)=10, rows(used)=10
+  R range: [0.26, 15.8]  |  V range: [min 16, max 84.5]
+  model: EGR-10  |  ΔBIC=-90.8 (F7_fallback), ΔBIC_χ²=-614.7
+  s_frac=0.0000  χ²_red=0.500  R²=0.999  AIC=19.17  AICc=19.17  BIC=22.20  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=2.973  ρ_AR1=-0.582  [warn residual AR1]  BP_p=0.050  [hetero p<0.05]
+  ablation: ΔRMSE_in = -126.252 (model − EGR-7)
+  Q_exp = R * S_resp = 36.6433
+  saved fig: /work/out/figs/GC11820_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.383
+ Median DW: 2.251  |  Median ρ_AR1: -0.175
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 42  —  galaxies 169..172 of 175 (Total Pages: 44)
+
+[GC11914] rows(raw)=65, rows(used)=65
+  R range: [0.28, 9.83]  |  V range: [min 168, max 305]
+  model: EGR-10  |  ΔBIC=-537.8 (F7_fallback), ΔBIC_χ²=-35.5
+  s_frac=0.0000  χ²_red=0.181  R²=0.989  AIC=142.58  AICc=146.65  BIC=164.32  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=0.847  ρ_AR1=0.573  [warn residual AR1]  BP_p=0.027  [hetero p<0.05]
+  ablation: ΔRMSE_in = -174.464 (model − EGR-7)
+  Q_exp = R * S_resp = 835.719
+  saved fig: /work/out/figs/GC11914_rc.png
+
+[GC12506] rows(raw)=31, rows(used)=31
+  R range: [0.82, 50]  |  V range: [min 107, max 255]
+  model: EGR-10  |  ΔBIC=-134.7 (F7_fallback), ΔBIC_χ²=-11.7
+  s_frac=0.0000  χ²_red=0.097  R²=0.986  AIC=98.38  AICc=109.38  BIC=112.72  [conservative σ]  [bound hits — chosen:0, f7:0, f10:0]
+  DW=1.900  ρ_AR1=0.039  BP_p=0.088
+  ablation: ΔRMSE_in = -33.167 (model − EGR-7)
+  Q_exp = R * S_resp = 658.46
+  saved fig: /work/out/figs/GC12506_rc.png
+
+[GC12632] rows(raw)=15, rows(used)=15
+  R range: [0.71, 10.7]  |  V range: [min 24.1, max 73.2]
+  model: EGR-10  |  ΔBIC=-142.1 (F7_fallback), ΔBIC_χ²=-121.3
+  s_frac=0.0000  χ²_red=0.065  R²=0.999  AIC=-4.13  AICc=50.87  BIC=2.95  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=2.757  ρ_AR1=-0.395  [warn residual AR1]  BP_p=0.743
+  ablation: ΔRMSE_in = -66.441 (model − EGR-7)
+  Q_exp = R * S_resp = 48.4654
+  saved fig: /work/out/figs/GC12632_rc.png
+
+[GC12732] rows(raw)=16, rows(used)=16
+  R range: [0.96, 15.4]  |  V range: [min 34.2, max 98]
+  model: EGR-10  |  ΔBIC=-127.2 (F7_fallback), ΔBIC_χ²=-65.8
+  s_frac=0.0000  χ²_red=0.174  R²=0.996  AIC=19.90  AICc=63.90  BIC=27.63  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=1.479  ρ_AR1=0.201  BP_p=0.030  [hetero p<0.05]
+  ablation: ΔRMSE_in = -67.749 (model − EGR-7)
+  Q_exp = R * S_resp = 790.456
+  saved fig: /work/out/figs/GC12732_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 4  |  OK: 4  |  Failures: 0
+ Selected EGR-10: 4/4  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.136
+ Median DW: 1.690  |  Median ρ_AR1: 0.120
+ Heteroscedastic (BP p<0.05): 2
+ BIC status counts: F7_fallback:4
+===============================================
+
+numpy 2.3.2 | scipy unknown | matplotlib 3.10.6 | pandas 2.3.2
+
+Analyzing Page 43  —  galaxies 173..175 of 175 (Total Pages: 44)
+
+[GCA281] rows(raw)=7, rows(used)=7
+  R range: [0.09, 1.08]  |  V range: [min 7, max 29.5]
+  model: EGR-10  |  ΔBIC=-85.3 (F7_fallback), ΔBIC_χ²=-1348.7
+  s_frac=0.0000  χ²_red=0.022  R²=1.000  AIC=-7.85  AICc=-7.85  BIC=-8.39  [conservative σ]  [bound hits — chosen:3, f7:0, f10:3]
+  DW=2.872  ρ_AR1=-0.643  [warn residual AR1]  BP_p=0.201
+  ablation: ΔRMSE_in = -91.706 (model − EGR-7)
+  Q_exp = R * S_resp = 11.1176
+  saved fig: /work/out/figs/GCA281_rc.png
+
+[GCA442] rows(raw)=8, rows(used)=8
+  R range: [0.42, 6.33]  |  V range: [min 14.2, max 57.8]
+  model: EGR-10  |  ΔBIC=-80.2 (F7_fallback), ΔBIC_χ²=-312.3
+  s_frac=0.0000  χ²_red=0.125  R²=1.000  AIC=1.78  AICc=1.78  BIC=2.57  [conservative σ]  [bound hits — chosen:1, f7:0, f10:1]
+  DW=3.722  ρ_AR1=-0.862  [warn residual AR1]  BP_p=0.298
+  ablation: ΔRMSE_in = -70.882 (model − EGR-7)
+  Q_exp = R * S_resp = 115.237
+  saved fig: /work/out/figs/GCA442_rc.png
+
+[GCA444] rows(raw)=36, rows(used)=36
+  R range: [0.12, 2.62]  |  V range: [min 6.48, max 38.3]
+  model: EGR-10  |  ΔBIC=-324.2 (F7_fallback), ΔBIC_χ²=-3090.1
+  s_frac=0.0000  χ²_red=0.028  R²=0.995  AIC=-10.81  AICc=-2.01  BIC=5.02  [conservative σ]  [bound hits — chosen:2, f7:0, f10:2]
+  DW=2.244  ρ_AR1=-0.156  BP_p=0.000  [hetero p<0.05]
+  ablation: ΔRMSE_in = -67.697 (model − EGR-7)
+  Q_exp = R * S_resp = 8.43332
+  saved fig: /work/out/figs/GCA444_rc.png
+
+================= RUN SUMMARY =================
+ Galaxies processed: 3  |  OK: 3  |  Failures: 0
+ Selected EGR-10: 3/3  (100.0%)
+ Median s_frac: 0.0000  |  Median χ²_red: 0.028
+ Median DW: 2.872  |  Median ρ_AR1: -0.643
+ Heteroscedastic (BP p<0.05): 1
+ BIC status counts: F7_fallback:3
+===============================================
+

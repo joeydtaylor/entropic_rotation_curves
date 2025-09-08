@@ -1,0 +1,42 @@
+{
+  "timestamp_utc": "2025-09-08T02:05:26.412438+00:00",
+  "args": {
+    "page": 0,
+    "data": "/work/data/sparc_mass_models.csv",
+    "plot": true,
+    "starts": 12,
+    "starts7": null,
+    "starts10": null,
+    "bic_thresh": 10.0,
+    "holdout": 0.0,
+    "holdout_repeats": 3,
+    "holdout_mode": "random",
+    "rar": true,
+    "seed": 137,
+    "outdir": "/work/out",
+    "fresh": false,
+    "f7_widen": 3.5,
+    "f7_tries": 16,
+    "nested_f7": true,
+    "hm_eps": 0.0,
+    "elm_enable": false,
+    "elm_mode": "bounded",
+    "elm_alpha": 0.35,
+    "elm_beta": 0.35,
+    "elm_gates": "",
+    "elm_phase_scale": 1.0,
+    "elm_scale": 1.0,
+    "mcmc": true,
+    "walkers": 64,
+    "steps": 1500,
+    "burn": 300,
+    "selftest": false
+  },
+  "versions": {
+    "python": "3.12.11 (main, Aug 13 2025, 10:28:18) [GCC 14.2.0]",
+    "numpy": "2.3.2",
+    "scipy": "unknown",
+    "matplotlib": "3.10.6",
+    "pandas": "2.3.2"
+  }
+}
